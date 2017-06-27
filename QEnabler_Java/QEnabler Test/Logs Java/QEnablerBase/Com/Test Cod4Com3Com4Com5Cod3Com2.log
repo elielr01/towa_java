@@ -1,0 +1,75 @@
+<Test for Automatic Verification>, Now(?), Test Cod4Com3Com4Com5Cod3Com2.log
+
+#################### TEST COBOL A1 ##########
+syspath:?[, "Prog_cbA.cobol", true, true, LOCAL, FILE]
+Object-FULL, Object-FULL
+########## RESULTADO subExtraeComYAvanza
+Object-FULL, Object-FULL, Object-FULL
+########## RESULTADO ComCommentsAbstract(cod)
+##########>>>>>START_A1
+comcb(
+comcb:?{}==>Com{comtype(FULL_LINE), codcb:?[, , COM_FULL_LINE, null, arrstr[32]:?], 
+    ##########>>>>>START_B2
+    arrpar(arrpar[11]:?
+    {[
+    [0]  Parst{
+        ##########>>>>>START_C3
+        arrstrLineParst(arrstr[6]:?
+        {
+        [0] "(****************************************************************"<65>
+        [1] "                                                                *"<65>
+        [2] "   ACCESO  A TABLA  DB2:                                        *"<65>
+        [3] "                                                                *"<65>
+        [4] "          - UGDTSMD                                             *"<65>
+        [5] ")****************************************************************"<65>
+        })
+        ##########<<<<<END_C3}==>Par{comcb:?|look object up|}==>Bclass{null}, 
+    [1]  Parun{strParagraph("DESCRIPCION: algo se describe AQUI HAY MUCHAS COSAS PARA LLENAR LA LINEA."<73>)}==>Par{comcb:?|look object up|}==>Bclass{null}, 
+    [2]  Parun{strParagraph("OBTENCION DE SALARIO MINIMO OTRO ADICIONAL CON EstoEsUnaPalabraMurGrandeQueDebeSerCortada>>>>>>>>>>>AQUI <<<<<<<*"<113>)}==>Par{comcb:?|look object up|}==>Bclass{null}, 
+    [3]  Parem{}==>Par{comcb:?|look object up|}==>Bclass{null}, 
+    [4]  Parun{strParagraph("DD/MMM/AA ) AUTOR sigue aqui con mas cosas para ser varias lineas 10/AGOSTO/2000. DEMETRIO DOMINGUEZ."<101>)}==>Par{comcb:?|look object up|}==>Bclass{null}, 
+    [5]  Parst{
+        ##########>>>>>START_C4
+        arrstrLineParst(arrstr[8]:?
+        {
+        [0] "("
+        [1] "********************           **********************************"<65>
+        [2] "  REQUERIMIENTO        FECHA          USUARIO     MARCA         *"<65>
+        [3] " --------------- -------------------  -------  --------------   *"<65>
+        [4] " REINGENIERIA DE     2009-03-06       IDAXJEM  ACME-RI-INI.     *"<65>
+        [5] " PRESTAMOS                                     ACME-RI-FIN.     *"<65>
+        [6] "                                                                *"<65>
+        [7] ")SE AGREGA COPY PARA EL MANEJO DE ERRORES.                      *"<65>
+        })
+        ##########<<<<<END_C4}==>Par{comcb:?|look object up|}==>Bclass{null}, 
+    [6]  Parem{}==>Par{comcb:?|look object up|}==>Bclass{null}, 
+    [7]  Parst{
+        ##########>>>>>START_C5
+        arrstrLineParst(arrstr[3]:?
+        {
+        [0] "(REINGENIERIA DE     2009-04-04       IDAXFAM  ACME-RI-INI.     *"<65>
+        [1] " PRESTAMOS                                     ACME-RI-FIN.     *"<65>
+        [2] ")                                                               *"<65>
+        })
+        ##########<<<<<END_C5}==>Par{comcb:?|look object up|}==>Bclass{null}, 
+    [8]  Parun{strParagraph("ESTA RUTINA ES UN CLON DE LA RUTINA UR9CSMD0, SE AGREGA COPY * PARA EL MANEJO CORRECTO DE ERRORES. *"<100>)}==>Par{comcb:?|look object up|}==>Bclass{null}, 
+    [9]  Parem{}==>Par{comcb:?|look object up|}==>Bclass{null}, 
+    [10] Parun{strParagraph("IDENTIFICATION DIVISION")}==>Par{comcb:?|look object up|}==>Bclass{null}]
+    })
+    ##########<<<<<END_B2}==>Bclass{null})
+##########<<<<<END_A1
+
+#################### Bclass SUMMARY ##########
+##########>>>>>START_A6
+BclassBaseClassAbstract.dicintObjectCount(dicint[6]:?
+{
+[QEnablerBase.ParemEmpty|INMUTABLE]        3
+[QEnablerBase.ParstStructured|INMUTABLE]   3
+[QEnablerBase.ParunUnstructured|INMUTABLE] 5
+[QEnablerCobol.CodcbCobol|INMUTABLE]       2
+[QEnablerCobol.ComcbCobol|INMUTABLE]       1
+[TowaInfrastructure.SyspathPath|MUTABLE]   13
+})
+##########<<<<<END_A6
+intObjectsCount(27), BclassBaseClassAbstract.intUsedInAddTotalCount(0), BclassBaseClassAbstract.intUsedInRemoveTotalCount(0)
+intMemoryUsedMB(0)

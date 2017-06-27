@@ -1,0 +1,26 @@
+<Test for Automatic Verification>, Now(?), Test Com1.log
+
+#################### TEST COBOL ##########
+comcbDUMMY.arrcharREQUIRED_IN_PARUN(arrchar[62]:?{ '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' })
+comcbDUMMY.arrt2alignmentCOM_EL_REQUIRES_ALIGNMENT(null)
+
+#################### TEST C# ##########
+comooDUMMY.arrcharREQUIRED_IN_PARUN(arrchar[104]:?{ '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'À', 'Á', 'Â', 'Ä', 'È', 'É', 'Ê', 'Ë', 'Ì', 'Í', 'Î', 'Ï', 'Ñ', 'Ò', 'Ó', 'Ô', 'Ö', 'Ù', 'Ú', 'Û', 'Ü', 'à', 'á', 'â', 'ä', 'è', 'é', 'ê', 'ë', 'ì', 'í', 'î', 'ï', 'ñ', 'ò', 'ó', 'ô', 'ö', 'ù', 'ú', 'û', 'ü' })
+##########>>>>>START_A1
+comooDUMMY.arrt2alignmentCOM_EL_REQUIRES_ALIGNMENT(arrt2alignment[2]:?
+{
+[0] <strFileExtension(".cs"), boolComElRequiresAlignment(true)>
+[1] <strFileExtension(".java"), boolComElRequiresAlignment(false)>
+})
+##########<<<<<END_A1
+
+#################### Bclass SUMMARY ##########
+##########>>>>>START_A2
+BclassBaseClassAbstract.dicintObjectCount(dicint[2]:?
+{
+[QEnablerCobol.CodcbCobol|INMUTABLE]     2
+[TowaInfrastructure.SyspathPath|MUTABLE] 19
+})
+##########<<<<<END_A2
+intObjectsCount(21), BclassBaseClassAbstract.intUsedInAddTotalCount(0), BclassBaseClassAbstract.intUsedInRemoveTotalCount(0)
+intMemoryUsedMB(0)

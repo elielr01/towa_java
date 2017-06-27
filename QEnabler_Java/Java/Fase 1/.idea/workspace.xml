@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="1a1d7b2a-1da0-4782-a831-868215d3507d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/.vs/QEnabler/v14/.suo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/Cobol RP Spec/0 QCB Codcb RP Spec.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/Cobol/0 QCB Cod2 CodAbstract(file) (2of2).cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/Object-Oriented RP Spec/0 QOO Codoo RP Spec.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/QEnabler.csproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/QEnabler.csproj.user" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/QEnabler.sln" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/QEnabler.suo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/QEnabler.userprefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/QEnabler.v12.suo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/a Test/Program.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/a Test/Test 0 Cod.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/a Test/Test Sys.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/a Test/Test Syspath.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/a Test/Test Test.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/a Test/a Test Program.Designer.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/a Test/a Test Program.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/a Test/a Test Program.resx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/app.config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/bin/Debug/WindowsApplication.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/bin/Debug/WindowsApplication.exe.config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/bin/Debug/WindowsApplication.exe.mdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/bin/Debug/WindowsApplication.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/bin/Debug/WindowsApplication.vshost.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/bin/Debug/WindowsApplication.vshost.exe.config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/bin/Debug/WindowsApplication.vshost.exe.manifest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/obj/Debug/QEnabler.csproj.FileListAbsolute.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/obj/Debug/QEnabler.csproj.GenerateResource.Cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/obj/Debug/QEnablerBase.frmPrueba.resources" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/obj/x86/Debug/DesignTimeResolveAssemblyReferences.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/obj/x86/Debug/QEnabler.csproj.FileListAbsolute.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/obj/x86/Debug/QEnabler.csproj.GenerateResource.Cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/obj/x86/Debug/QEnabler.csprojResolveAssemblyReference.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/obj/x86/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/obj/x86/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/obj/x86/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/obj/x86/Debug/Testing.frmPrueba.resources" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/obj/x86/Debug/WindowsApplication.exe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/obj/x86/Debug/WindowsApplication.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/z Base RP Spec/0 QZZ Cod RP Spec.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/z Base/0 QZZ Cod1 subPrepareConstants.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/z Base/0 QZZ Cod2 CodAbstract(file) (1of2).cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/z Base/0 QZZ Ltok4a subTokeniza (1of2).cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/zz SAI RP Spec/SAI Tech RP Spec.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/zz TIS/BboxBaseBoxingAbstract.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/zz TIS/BclassBaseClassAbstract.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/zz TIS/BclassmutabilityEnum.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/zz TIS/BtupleBaseTupleAbstract.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/zz TIS/Obool.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/zz TIS/Ochar.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/zz TIS/Oint.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/zz TIS/Olong.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/zz TIS/Onum.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/zz TIS/Ots.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/zz TIS/Sys.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/zz TIS/SysexceptuserUserAbort.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/zz TIS/SyspathPath.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/zz TIS/SyspathtypeEnum.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/zz TIS/SyspathwhereEnum.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/zz TIS/T2CharDescriptionTuple.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/zz TIS/Test.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/zz TIS/TestchartypeEnum.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/zz TIS/TestoptionEnum.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/zz TIS/Tools.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../C#/Fase 0/QEnabler/zz TIS/ToolsalignmentEnum.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Testing/C#/Test 0 Cod/Prog_cbA.cobol" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Testing/C#/Test 0 Cod/Prog_cbX.cobol" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Testing/C#/Test 0 Cod/Prog_cbY.cobol" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Testing/C#/Test 0 Cod/Prog_csA.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Testing/C#/Test 0 Cod/Test Cod1.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Testing/C#/Test 0 Cod/Test Cod2.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Testing/Java/Test 0 Cod/Prog_cbA.cobol" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Testing/Java/Test 0 Cod/Prog_cbX.cobol" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Testing/Java/Test 0 Cod/Prog_cbY.cobol" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Testing/Java/Test 0 Cod/Prog_csA.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Testing/Java/Test 0 Cod/Temporal QEnabler Test Cod1.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Testing/Java/Test 0 Cod/Temporal QEnabler Test Cod2.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Testing/Java/Test 0 Cod/TestTemp Cod1.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Testing/Java/Test 0 Cod/TestTemp Cod2.log" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zz TIS/TowaInfrastructure/Tes2.java" afterPath="$PROJECT_DIR$/zz TIS/TowaInfrastructure/Tes2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zz TIS/TowaInfrastructure/Tes3.java" afterPath="$PROJECT_DIR$/zz TIS/TowaInfrastructure/Tes3.java" />
+    </list>
+    <ignored path="Temporal QEnabler Java.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Temporal QEnabler Java" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Tes2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/Tes2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66690">
+              <caret line="4455" column="5" selection-start-line="4027" selection-start-column="4" selection-end-line="4455" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestCod.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/a Test/QEnablerBase/TestCod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tools.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/Tools.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98055">
+              <caret line="6541" column="26" selection-start-line="6541" selection-start-column="26" selection-end-line="6541" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tes3.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/Tes3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="873">
+              <caret line="2352" column="31" selection-start-line="2352" selection-start-column="31" selection-end-line="2352" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/zz TIS/TowaInfrastructure/BboxBaseBoxingAbstract.java" />
+        <option value="$PROJECT_DIR$/zz TIS/TowaInfrastructure/Ots.java" />
+        <option value="$PROJECT_DIR$/zz TIS/TowaInfrastructure/T2charDescriptionTuple.java" />
+        <option value="$PROJECT_DIR$/zz TIS/TowaInfrastructure/Sys.java" />
+        <option value="$PROJECT_DIR$/zz TIS/TowaInfrastructure/TemporalTestStrTo.java" />
+        <option value="$PROJECT_DIR$/zz TIS/TowaInfrastructure/BclassmutabilityEnum.java" />
+        <option value="$PROJECT_DIR$/zz TIS/TowaInfrastructure/TestchartypeEnum.java" />
+        <option value="$PROJECT_DIR$/zz TIS/TowaInfrastructure/Test.java" />
+        <option value="$PROJECT_DIR$/zz SAI RP Spec/SoftwareAutomation/Tech.java" />
+        <option value="$PROJECT_DIR$/z Base/QEnablerBase/CodtypeEnum.java" />
+        <option value="$PROJECT_DIR$/Object-Oriented RP Spec/QEnablerObjectOriented/CodooObjectOriented.java" />
+        <option value="$PROJECT_DIR$/zz TIS/TowaInfrastructure/Oarrchar.java" />
+        <option value="$PROJECT_DIR$/a Test/Testing/Program.java" />
+        <option value="$PROJECT_DIR$/zz TIS/TowaInfrastructure/BclassBaseClassAbstract.java" />
+        <option value="$PROJECT_DIR$/zz TIS/TowaInfrastructure/SyspathPath.java" />
+        <option value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar!/com/apple/laf/AquaButtonUI.class" />
+        <option value="$PROJECT_DIR$/z Base/QEnablerBase/ComCommentsAbstract.java" />
+        <option value="$PROJECT_DIR$/Cobol RP Spec/QEnablerCobol/CodcbCobol.java" />
+        <option value="$PROJECT_DIR$/z Base/QEnablerBase/CodCodeAbstract.java" />
+        <option value="$PROJECT_DIR$/zz TIS/TowaInfrastructure/Tools.java" />
+        <option value="$PROJECT_DIR$/a Test/QEnablerBase/TestCod.java" />
+        <option value="$PROJECT_DIR$/a Test/Testing/frmPrueba.java" />
+        <option value="$PROJECT_DIR$/Cobol RP Spec/QEnablerCobol/ComcbCobol.java" />
+        <option value="$PROJECT_DIR$/a Test/QEnablerBase/TestCom.java" />
+        <option value="$PROJECT_DIR$/zz TIS/TowaInfrastructure/Tes2.java" />
+        <option value="$PROJECT_DIR$/zz TIS/TowaInfrastructure/Tes3.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1680" />
+    <option name="height" value="1024" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Temporal QEnabler Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Temporal QEnabler Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fase 1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Temporal QEnabler Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fase 1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Temporal QEnabler Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fase 1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QEnablerBase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="SearchEverywhereHistoryKey" value="sys&#9;PSI&#9;JAVA://TowaInfrastructure.Sys&#10;tes&#9;FILE&#9;file://C:/Users/Alejandro/Documents/Towa/Java-And-Obj-C/Java/Temporal QEnabler Java/a Test/QEnablerBase/TestCod.java&#10;oob&#9;PSI&#9;JAVA://TowaInfrastructure.Oobject&#10;test&#9;FILE&#9;file://C:/Users/Alejandro/Documents/Towa/Java-And-Obj-C/Java/Temporal QEnabler Java/a Test/QEnablerBase/TestCod.java&#10;tools&#9;FILE&#9;file://C:/Users/Alejandro/Documents/Towa/Java-And-Obj-C/Java/Temporal QEnabler Java/zz TIS/TowaInfrastructure/Tools.java&#10;bcl&#9;FILE&#9;file://C:/Users/Alejandro/Documents/Towa/Java-And-Obj-C/Java/Temporal QEnabler Java/zz TIS/TowaInfrastructure/BclassBaseClassAbstract.java&#10;frm&#9;FILE&#9;file://C:/Users/Alejandro/Documents/Towa/Java-And-Obj-C/Java/Temporal QEnabler Java/a Test/Testing/frmPrueba.java&#10;tes2&#9;FILE&#9;file://C:/Users/Alejandro/Documents/Towa/Java-And-Obj-C/Java/Temporal QEnabler Java/zz TIS/TowaInfrastructure/Tes2.java&#10;t2c&#9;FILE&#9;file://C:/Users/Alejandro/Documents/Towa/Java-And-Obj-C/Java/Temporal QEnabler Java/zz TIS/TowaInfrastructure/T2charDescriptionTuple.java&#10;enum&#9;PSI&#9;JAVA://TowaInfrastructure.BclassmutabilityEnum&#10;tem&#9;FILE&#9;file://C:/Users/Alejandro/Documents/Towa/Java-And-Obj-C/Java/Temporal QEnabler Java/zz TIS/TowaInfrastructure/TemporalTestStrTo.java&#10;testco&#9;FILE&#9;file://C:/Users/Alejandro/Documents/Towa/Java-And-Obj-C/Java/Temporal QEnabler Java/a Test/QEnablerBase/TestCod.java&#10;Test&#9;FILE&#9;file://C:/Users/Alejandro/Documents/Towa/Java-And-Obj-C/Java/Temporal QEnabler Java/zz TIS/TowaInfrastructure/Test.java&#10;too&#9;PSI&#9;JAVA://TowaInfrastructure.Tools&#10;BCLASS&#9;FILE&#9;file://C:/Users/Alejandro/Documents/Towa/Java-And-Obj-C/Java/Temporal QEnabler Java/zz TIS/TowaInfrastructure/BclassBaseClassAbstract.java" />
+  </component>
+  <component name="RunManager" selected="Application.Program">
+    <configuration default="false" name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Testing.Program" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Temporal QEnabler Java" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Temporal QEnabler Java" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Program" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Program" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/.." />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/.." />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/.." />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/.." />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a1d7b2a-1da0-4782-a831-868215d3507d" name="Default" comment="" />
+      <created>1470929219954</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1470929219954</updated>
+      <workItem from="1470929221145" duration="256000" />
+      <workItem from="1470929494693" duration="895000" />
+      <workItem from="1470930440082" duration="12117000" />
+      <workItem from="1471014650902" duration="11084000" />
+      <workItem from="1471273775483" duration="34919000" />
+      <workItem from="1471874213468" duration="31302000" />
+      <workItem from="1472478672174" duration="14071000" />
+      <workItem from="1473183132401" duration="26478000" />
+      <workItem from="1473691156926" duration="2512000" />
+      <workItem from="1473775688776" duration="20670000" />
+      <workItem from="1473807993410" duration="41000" />
+      <workItem from="1474239970006" duration="4254000" />
+      <workItem from="1474441673460" duration="1507000" />
+      <workItem from="1474795083540" duration="2959000" />
+      <workItem from="1474799579419" duration="2111000" />
+      <workItem from="1475141619059" duration="209000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="165392000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32670158" sideWeight="0.52619046" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33476394" sideWeight="0.4738095" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18009768" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34978542" sideWeight="0.56904763" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.4975" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Analyze Dataflow to" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29291844" sideWeight="0.44285715" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.4975" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32670158" sideWeight="0.52619046" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Analyze Dataflow to" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35078534" sideWeight="0.56904763" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29319373" sideWeight="0.44285715" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32670158" sideWeight="0.4738095" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20357142" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHANGE_BROWSER_SETTINGS">
+      <map>
+        <entry key="svn">
+          <value>
+            <ChangeBrowserSettings />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/Sys.java</url>
+          <line>1095</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/SyspathPath.java</url>
+          <line>478</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/z Base/QEnablerBase/ComCommentsAbstract.java</url>
+          <line>349</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/a Test/QEnablerBase/TestCom.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/Tes2.java</url>
+          <line>4709</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Cobol RP Spec/QEnablerCobol/ComcbCobol.java</url>
+          <line>138</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/z Base/QEnablerBase/ComCommentsAbstract.java</url>
+          <line>1170</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/z Base/QEnablerBase/CodCodeAbstract.java</url>
+          <line>364</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="83" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="arrstrPRIMITIVE_TYPE_O" />
+        <watch expression="arrstrPRIMITIVE_PREFIX_O" />
+        <watch expression="strPrefix" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2503" column="48" selection-start-line="2503" selection-start-column="26" selection-end-line="2503" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/Sys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz SAI RP Spec/SoftwareAutomation/Tech.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="309" column="54" selection-start-line="309" selection-start-column="54" selection-end-line="309" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/Tes2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="307" column="25" selection-start-line="307" selection-start-column="25" selection-end-line="307" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/BclassBaseClassAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="346" column="34" selection-start-line="346" selection-start-column="34" selection-end-line="346" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/BboxBaseBoxingAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a Test/QEnablerBase/TestCod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cobol RP Spec/QEnablerCobol/CodcbCobol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2555" column="2" selection-start-line="2555" selection-start-column="2" selection-end-line="2555" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/Sys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/Tes2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="204" column="20" selection-start-line="204" selection-start-column="20" selection-end-line="204" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/BboxBaseBoxingAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/BboxBaseBoxingAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/Ots.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/net/URLClassLoader.java" />
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/BclassmutabilityEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/T2charDescriptionTuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/TestchartypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/lang/String.java" />
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/TestoptionEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/Oobject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz SAI RP Spec/SoftwareAutomation/Tech.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="217" column="8" selection-start-line="217" selection-start-column="8" selection-end-line="217" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z Base/QEnablerBase/CodtypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Object-Oriented RP Spec/QEnablerObjectOriented/CodooObjectOriented.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3435">
+          <caret line="236" column="0" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/Oarrchar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/Oarrstr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/Ochar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/SyspathPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6990">
+          <caret line="470" column="50" selection-start-line="470" selection-start-column="50" selection-end-line="470" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/javax/swing/AbstractButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="2021" column="0" selection-start-line="2021" selection-start-column="0" selection-end-line="2021" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Object-Oriented RP Spec/QEnablerObjectOriented/ComooObjectOriented.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z Base/QEnablerBase/T2alignmentRequiresAlignmentTuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z Base/QEnablerBase/ParunUnstructured.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4995">
+          <caret line="336" column="0" selection-start-line="336" selection-start-column="0" selection-end-line="336" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28425">
+          <caret line="1966" column="0" selection-start-line="1966" selection-start-column="0" selection-end-line="1966" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a Test/Testing/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a Test/Testing/frmPrueba.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/Sys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="1216" column="0" selection-start-line="1216" selection-start-column="0" selection-end-line="1216" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/BboxBaseBoxingAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/Ostring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar!/com/apple/laf/AquaButtonUI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="490" column="0" selection-start-line="490" selection-start-column="0" selection-end-line="490" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/BclassBaseClassAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="225" column="0" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z Base/QEnablerBase/ComCommentsAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="1172" column="0" selection-start-line="1172" selection-start-column="0" selection-end-line="1172" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/z Base/QEnablerBase/CodCodeAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="364" column="0" selection-start-line="364" selection-start-column="0" selection-end-line="364" selection-end-column="0" />
+          <folding>
+            <marker date="1484236714000" expanded="false" signature="44518:44524" ph="&lt;~&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="11" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cobol RP Spec/QEnablerCobol/ComcbCobol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a Test/QEnablerBase/TestCom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="78" column="37" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+          <folding>
+            <marker date="1488362062000" expanded="false" signature="13668:13685" ph="&lt;~&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cobol RP Spec/QEnablerCobol/CodcbCobol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a Test/QEnablerBase/TestCod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98055">
+          <caret line="6541" column="26" selection-start-line="6541" selection-start-column="26" selection-end-line="6541" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/Tes2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66690">
+          <caret line="4455" column="5" selection-start-line="4027" selection-start-column="4" selection-end-line="4455" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zz TIS/TowaInfrastructure/Tes3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="873">
+          <caret line="2352" column="31" selection-start-line="2352" selection-start-column="31" selection-end-line="2352" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Temporal QEnabler Java</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,23 @@
+<Test for Automatic Verification>, Now(?), Test Cod1.log
+
+##################### TEST COBOL ##########
+codcbDUMMY.arrstrFILE_EXTENSION(arrstr[7]:?{ ".cbl", ".cob", ".cobol", ".copy", ".cpy", ".incl", ".include" })
+codcbDUMMY.arrcharUSEFUL(arrchar[89]:?{ ' ', '!', '"', '#', '$', '%', '&', ''', '(', ')', '*', '+', ',', '-', '.', '/', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ':', ';', '<', '=', '>', '?', '@', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '_', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '|', '¢'<0x00A2>, '¬' })
+codcbDUMMY.arrcharTO_CONVERT(arrchar[58]:?{ '[', '\', ']', '{', '}', '¡', '©'<0x00A9>, 'ª', 'º', '¿', 'À', 'Á', 'Â', 'Ä', 'Ç', 'È', 'É', 'Ê', 'Ë', 'Ì', 'Í', 'Î', 'Ï', 'Ñ', 'Ò', 'Ó', 'Ô', 'Ö', 'Ù', 'Ú', 'Û', 'Ü', 'à', 'á', 'â', 'ä', 'ç', 'è', 'é', 'ê', 'ë', 'ì', 'í', 'î', 'ï', 'ñ', 'ò', 'ó', 'ô', 'ö', 'ù', 'ú', 'û', 'ü', '‘'<0x2018>, '’'<0x2019>, '“'<0x201C>, '”'<0x201D> })
+codcbDUMMY.arrcharCONVERSION(arrchar[58]:?{ '(', '/', ')', '(', ')', '!', 'c', 'a', 'o', '?', 'A', 'A', 'A', 'A', 'C', 'E', 'E', 'E', 'E', 'I', 'I', 'I', 'I', 'N', 'O', 'O', 'O', 'O', 'U', 'U', 'U', 'U', 'a', 'a', 'a', 'a', 'c', 'e', 'e', 'e', 'e', 'i', 'i', 'i', 'i', 'n', 'o', 'o', 'o', 'o', 'u', 'u', 'u', 'u', ''', ''', '"', '"' })
+
+##################### TEST C# ##########
+codooDUMMY.arrstrFILE_EXTENSION(arrstr[2]:?{ ".cs", ".java" })
+codooDUMMY.arrcharUSEFUL(arrchar[149]:?{ ' ', '!', '"', '#', '$', '%', '&', ''', '(', ')', '*', '+', ',', '-', '.', '/', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ':', ';', '<', '=', '>', '?', '@', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '[', '\', ']', '^', '_', '`', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '{', '|', '}', '¡', '¢'<0x00A2>, '¨', '©'<0x00A9>, 'ª', '¬', '´', '·', 'º', '¿', 'À', 'Á', 'Â', 'Ä', 'Ç', 'È', 'É', 'Ê', 'Ë', 'Ì', 'Í', 'Î', 'Ï', 'Ñ', 'Ò', 'Ó', 'Ô', 'Ö', 'Ù', 'Ú', 'Û', 'Ü', 'à', 'á', 'â', 'ä', 'ç', 'è', 'é', 'ê', 'ë', 'ì', 'í', 'î', 'ï', 'ñ', 'ò', 'ó', 'ô', 'ö', 'ù', 'ú', 'û', 'ü', '€' })
+codooDUMMY.arrcharTO_CONVERT(arrchar[4]:?{ '‘'<0x2018>, '’'<0x2019>, '“'<0x201C>, '”'<0x201D> })
+codooDUMMY.arrcharCONVERSION(arrchar[4]:?{ ''', ''', '"', '"' })
+
+#################### Bclass SUMMARY ##########
+##########>>>>>START_A1
+BclassBaseClassAbstract.dicintObjectCount(dicint[1]:?
+{
+[TowaInfrastructure.SyspathPath|MUTABLE] 11
+})
+##########<<<<<END_A1
+intObjectsCount(11), BclassBaseClassAbstract.intUsedInAddTotalCount(0), BclassBaseClassAbstract.intUsedInRemoveTotalCount(0)
+intMemoryUsedMB(0)

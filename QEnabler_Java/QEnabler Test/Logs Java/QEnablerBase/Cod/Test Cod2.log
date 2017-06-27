@@ -1,0 +1,46 @@
+<Test for Automatic Verification>, Now(?), Test Cod2.log
+
+##################### TEST COBOL X ##########
+syspath:?[, "Prog_cbX.cobol", true, true, LOCAL, FILE]
+##########>>>>>START_A1
+codcbProg(
+codcb:?{}==>Cod{codtype(COMPONENT), syspath:?|look object up|, 
+    ##########>>>>>START_B2
+    arrstrLine(arrstr[5]:?
+    {
+    [0] "   1         2         3         4         5         6         7 7"<66>
+    [1] " 8901234567890123456789012345678901234567890123456789X123456789012"<66>
+    [2] " A"
+    [3] ""
+    [4] " "" + @"""" + """ + @"""" + "''''??!!"
+    })
+    ##########<<<<<END_B2}==>Bclass{null})
+##########<<<<<END_A1
+
+##################### TEST COBOL Y ##########
+syspath:?[, "Prog_cbY.cobol", true, true, LOCAL, FILE]
+##########>>>>>START_A3
+codcbProg(
+codcb:?{}==>Cod{codtype(COMPONENT), syspath:?|look object up|, 
+    ##########>>>>>START_B4
+    arrstrLine(arrstr[5]:?
+    {
+    [0] " ABCDEi? i? i? ABCDE"
+    [1] " abcdi? 12i? 34i? abcde"
+    [2] "   1         2         3         4         5         6         7"<64>
+    [3] " 89012345678901234567890123456789012345678901234567890123456789012"<66>
+    [4] "90i? 45i? 78i?  123i? 56789i?"
+    })
+    ##########<<<<<END_B4}==>Bclass{null})
+##########<<<<<END_A3
+
+#################### Bclass SUMMARY ##########
+##########>>>>>START_A5
+BclassBaseClassAbstract.dicintObjectCount(dicint[2]:?
+{
+[QEnablerCobol.CodcbCobol|INMUTABLE]     2
+[TowaInfrastructure.SyspathPath|MUTABLE] 17
+})
+##########<<<<<END_A5
+intObjectsCount(19), BclassBaseClassAbstract.intUsedInAddTotalCount(0), BclassBaseClassAbstract.intUsedInRemoveTotalCount(0)
+intMemoryUsedMB(0)

@@ -1,0 +1,539 @@
+<Test for Automatic Verification>, Now(?), Test Cod4Com3Com4Com5Cod3Com2.log
+
+#################### TEST COBOL A1 ##########
+syspath:?[, "Prog_cbA.cobol", true, true, NETWORK, FILE]
+intLine(1), intChar(0)
+########## RESULTADO subExtraeComYAvanza
+intLine(32), intChar(36), ##########>>>>>START_A1
+codComCb(
+codcb:?{}==>Cod{codtype(COM_FULL_LINE), null, 
+    ##########>>>>>START_B2
+    arrstrLine(arrstr[32]:?
+    {
+    [0]  "*(****************************************************************"<66>
+    [1]  "*                                                                *"<66>
+    [2]  "*   ACCESO  A TABLA  DB2:                                        *"<66>
+    [3]  "*                                                                *"<66>
+    [4]  "*          - UGDTSMD                                             *"<66>
+    [5]  "*)****************************************************************"<66>
+    [6]  "*                      DESCRIPCION:       algo  se describe"<59>
+    [7]  "*AQUI   HAY MUCHAS COSAS PARA LLENAR LA LINEA."
+    [8]  "* OBTENCION DE SALARIO MINIMO  OTRO ADICIONAL CON"
+    [9]  "*EstoEsUnaPalabraMurGrandeQueDebeSerCortada>>>>>>>>>>>AQUI<<<<<<<*"<66>
+    [10] "******************************************************************"<66>
+    [11] "*----------------------------------------------------------------*"<66>
+    [12] "* DD/MMM/AA )       AUTOR"
+    [13] "* sigue aqui con mas cosas para ser varias lineas"
+    [14] "* 10/AGOSTO/2000. DEMETRIO DOMINGUEZ."
+    [15] "*("
+    [16] "*********************           **********************************"<66>
+    [17] "*  REQUERIMIENTO        FECHA          USUARIO     MARCA         *"<66>
+    [18] "* --------------- -------------------  -------  --------------   *"<66>
+    [19] "* REINGENIERIA DE     2009-03-06       IDAXJEM  ACME-RI-INI.     *"<66>
+    [20] "* PRESTAMOS                                     ACME-RI-FIN.     *"<66>
+    [21] "*                                                                *"<66>
+    [22] "*)SE AGREGA COPY PARA EL MANEJO DE ERRORES.                      *"<66>
+    [23] "* --------------- -------------------  -------  --------------   *"<66>
+    [24] "*(REINGENIERIA DE     2009-04-04       IDAXFAM  ACME-RI-INI.     *"<66>
+    [25] "* PRESTAMOS                                     ACME-RI-FIN.     *"<66>
+    [26] "*)                                                               *"<66>
+    [27] "* ESTA RUTINA ES UN CLON DE LA RUTINA UR9CSMD0, SE AGREGA COPY   *"<66>
+    [28] "* PARA EL MANEJO CORRECTO DE ERRORES.                            *"<66>
+    [29] "*                                                                *"<66>
+    [30] "*"
+    [31] "*             IDENTIFICATION DIVISION"
+    })
+    ##########<<<<<END_B2}==>Bclass{null})
+##########<<<<<END_A1
+########## RESULTADO ComCommentsAbstract(cod)
+##########>>>>>START_A3
+comcb(
+comcb:?{}==>Com{comtype(FULL_LINE), codcb:?|look object up|, 
+    ##########>>>>>START_B4
+    arrpar(arrpar[11]:?
+    {
+    [0]  Parst{
+        ##########>>>>>START_C5
+        arrstrLineParst(arrstr[6]:?
+        {
+        [0] "(****************************************************************"<65>
+        [1] "                                                                *"<65>
+        [2] "   ACCESO  A TABLA  DB2:                                        *"<65>
+        [3] "                                                                *"<65>
+        [4] "          - UGDTSMD                                             *"<65>
+        [5] ")****************************************************************"<65>
+        })
+        ##########<<<<<END_C5}==>Par{comcb:?|look object up|}==>Bclass{null}
+    [1]  Parun{strParagraph("DESCRIPCION: algo se describe AQUI HAY MUCHAS COSAS PARA LLENAR LA LINEA."<73>)}==>Par{comcb:?|look object up|}==>Bclass{null}
+    [2]  Parun{strParagraph("OBTENCION DE SALARIO MINIMO OTRO ADICIONAL CON EstoEsUnaPalabraMurGrandeQueDebeSerCortada>>>>>>>>>>>AQUI <<<<<<<*"<113>)}==>Par{comcb:?|look object up|}==>Bclass{null}
+    [3]  Parem{}==>Par{comcb:?|look object up|}==>Bclass{null}
+    [4]  Parun{strParagraph("DD/MMM/AA ) AUTOR sigue aqui con mas cosas para ser varias lineas 10/AGOSTO/2000. DEMETRIO DOMINGUEZ."<101>)}==>Par{comcb:?|look object up|}==>Bclass{null}
+    [5]  Parst{
+        ##########>>>>>START_C6
+        arrstrLineParst(arrstr[8]:?
+        {
+        [0] "("
+        [1] "********************           **********************************"<65>
+        [2] "  REQUERIMIENTO        FECHA          USUARIO     MARCA         *"<65>
+        [3] " --------------- -------------------  -------  --------------   *"<65>
+        [4] " REINGENIERIA DE     2009-03-06       IDAXJEM  ACME-RI-INI.     *"<65>
+        [5] " PRESTAMOS                                     ACME-RI-FIN.     *"<65>
+        [6] "                                                                *"<65>
+        [7] ")SE AGREGA COPY PARA EL MANEJO DE ERRORES.                      *"<65>
+        })
+        ##########<<<<<END_C6}==>Par{comcb:?|look object up|}==>Bclass{null}
+    [6]  Parem{}==>Par{comcb:?|look object up|}==>Bclass{null}
+    [7]  Parst{
+        ##########>>>>>START_C7
+        arrstrLineParst(arrstr[3]:?
+        {
+        [0] "(REINGENIERIA DE     2009-04-04       IDAXFAM  ACME-RI-INI.     *"<65>
+        [1] " PRESTAMOS                                     ACME-RI-FIN.     *"<65>
+        [2] ")                                                               *"<65>
+        })
+        ##########<<<<<END_C7}==>Par{comcb:?|look object up|}==>Bclass{null}
+    [8]  Parun{strParagraph("ESTA RUTINA ES UN CLON DE LA RUTINA UR9CSMD0, SE AGREGA COPY * PARA EL MANEJO CORRECTO DE ERRORES. *"<100>)}==>Par{comcb:?|look object up|}==>Bclass{null}
+    [9]  Parem{}==>Par{comcb:?|look object up|}==>Bclass{null}
+    [10] Parun{strParagraph("IDENTIFICATION DIVISION")}==>Par{comcb:?|look object up|}==>Bclass{null}
+    })
+    ##########<<<<<END_B4}==>Bclass{null})
+##########<<<<<END_A3
+########## RESULTADOS subfunBuscaPalabra
+strWord("UGDTSMD"), intInPar(0), intInChar(4,012)
+strWord("UGDTSMd"), intInPar(-1), intInChar(-1)
+strWord("UGDTSM"), intInPar(-1), intInChar(-1)
+strWord("GDTSMD"), intInPar(-1), intInChar(-1)
+strWord("DESCRIPCION"), intInPar(-1), intInChar(-1)
+strWord("DESCRIPCION:"), intInPar(1), intInChar(0)
+strWord("DESCRIPCIÓN:"), intInPar(-1), intInChar(-1)
+strWord("algo"), intInPar(1), intInChar(13)
+strWord("2009"), intInPar(-1), intInChar(-1)
+strWord("2009-04-04"), intInPar(7), intInChar(21)
+strWord("DIVISION"), intInPar(10), intInChar(15)
+########## RESULTADOS arrstrParunToStandard
+comcb.arrpar[0].arrstrLinePar(arrstr[6]:?|look object up|)
+##########>>>>>START_A8
+comcb.arrpar[1].arrstrLinePar(arrstr[2]:?
+{
+[0] "    DESCRIPCION: algo se describe AQUI HAY MUCHAS COSAS PARA"<60>
+[1] "        LLENAR LA LINEA."
+})
+##########<<<<<END_A8
+##########>>>>>START_A9
+comcb.arrpar[2].arrstrLinePar(arrstr[3]:?
+{
+[0] "    OBTENCION DE SALARIO MINIMO OTRO ADICIONAL CON"
+[1] "        EstoEsUnaPalabraMurGrandeQueDebeSerCortada>>>>>>>>>>>AQUI"<65>
+[2] "        <<<<<<<*"
+})
+##########<<<<<END_A9
+comcb.arrpar[3].arrstrLinePar(arrstr[1]:?{ "" })
+##########>>>>>START_A10
+comcb.arrpar[4].arrstrLinePar(arrstr[2]:?
+{
+[0] "    DD/MMM/AA ) AUTOR sigue aqui con mas cosas para ser varias"<62>
+[1] "        lineas 10/AGOSTO/2000. DEMETRIO DOMINGUEZ."
+})
+##########<<<<<END_A10
+comcb.arrpar[5].arrstrLinePar(arrstr[8]:?|look object up|)
+comcb.arrpar[6].arrstrLinePar(arrstr[1]:?{ "" })
+comcb.arrpar[7].arrstrLinePar(arrstr[3]:?|look object up|)
+##########>>>>>START_A11
+comcb.arrpar[8].arrstrLinePar(arrstr[2]:?
+{
+[0] "    ESTA RUTINA ES UN CLON DE LA RUTINA UR9CSMD0, SE AGREGA COPY"<64>
+[1] "        * PARA EL MANEJO CORRECTO DE ERRORES. *"
+})
+##########<<<<<END_A11
+comcb.arrpar[9].arrstrLinePar(arrstr[1]:?{ "" })
+comcb.arrpar[10].arrstrLinePar(arrstr[1]:?{ "    IDENTIFICATION DIVISION" })
+########## RESULTADO CodCodeAbstract(com)
+##########>>>>>START_A12
+comcb.codStandard(
+codcb:?{}==>Cod{codtype(COM_FULL_LINE), null, 
+    ##########>>>>>START_B13
+    arrstrLine(arrstr[32]:?
+    {
+    [0]  "*----"
+    [1]  "*(****************************************************************"<66>
+    [2]  "*                                                                *"<66>
+    [3]  "*   ACCESO  A TABLA  DB2:                                        *"<66>
+    [4]  "*                                                                *"<66>
+    [5]  "*          - UGDTSMD                                             *"<66>
+    [6]  "*)****************************************************************"<66>
+    [7]  "*    DESCRIPCION: algo se describe AQUI HAY MUCHAS COSAS PARA"<61>
+    [8]  "*        LLENAR LA LINEA."
+    [9]  "*    OBTENCION DE SALARIO MINIMO OTRO ADICIONAL CON"<51>
+    [10] "*        EstoEsUnaPalabraMurGrandeQueDebeSerCortada>>>>>>>>>>>AQUI"<66>
+    [11] "*        <<<<<<<*"
+    [12] "*"
+    [13] "*    DD/MMM/AA ) AUTOR sigue aqui con mas cosas para ser varias"<63>
+    [14] "*        lineas 10/AGOSTO/2000. DEMETRIO DOMINGUEZ."<51>
+    [15] "*("
+    [16] "*********************           **********************************"<66>
+    [17] "*  REQUERIMIENTO        FECHA          USUARIO     MARCA         *"<66>
+    [18] "* --------------- -------------------  -------  --------------   *"<66>
+    [19] "* REINGENIERIA DE     2009-03-06       IDAXJEM  ACME-RI-INI.     *"<66>
+    [20] "* PRESTAMOS                                     ACME-RI-FIN.     *"<66>
+    [21] "*                                                                *"<66>
+    [22] "*)SE AGREGA COPY PARA EL MANEJO DE ERRORES.                      *"<66>
+    [23] "*"
+    [24] "*(REINGENIERIA DE     2009-04-04       IDAXFAM  ACME-RI-INI.     *"<66>
+    [25] "* PRESTAMOS                                     ACME-RI-FIN.     *"<66>
+    [26] "*)                                                               *"<66>
+    [27] "*    ESTA RUTINA ES UN CLON DE LA RUTINA UR9CSMD0, SE AGREGA COPY"<65>
+    [28] "*        * PARA EL MANEJO CORRECTO DE ERRORES. *"
+    [29] "*"
+    [30] "*    IDENTIFICATION DIVISION"
+    [31] "*----"
+    })
+    ##########<<<<<END_B13}==>Bclass{null})
+##########<<<<<END_A12
+########## RESULTADO (Com)subStandardVsOriginal
+comcb.arrboolOriginalOK(arrbool[32]:?{ true, true, true, true, true, true, false, false, true, false, false, false, false, false, false, true, true, true, true, true, true, true, true, false, true, true, true, false, false, false, true, true })
+comcb.arrboolStandardOK(arrbool[32]:?{ false, true, true, true, true, true, true, false, false, true, false, false, false, false, false, true, true, true, true, true, true, true, true, false, true, true, true, false, false, true, true, false })
+
+#################### TEST COBOL A2 ##########
+strFileName("Prog_cbA.cobol")
+intLine(149), intChar(0)
+########## RESULTADO subExtraeComYAvanza
+intLine(149), intChar(41), ##########>>>>>START_A14
+codComCb(
+codcb:?{}==>Cod{codtype(COM_FULL_LINE), null, 
+    ##########>>>>>START_B15
+    arrstrLine(arrstr[1]:?
+    {
+    [0] "***********************************&&&&&&&"
+    })
+    ##########<<<<<END_B15}==>Bclass{null})
+##########<<<<<END_A14
+########## RESULTADO ComCommentsAbstract(cod)
+##########>>>>>START_A16
+comcb(
+comcb:?{}==>Com{comtype(FULL_LINE), codcb:?|look object up|, 
+    ##########>>>>>START_B17
+    arrpar(arrpar[0]:?
+    {
+    })
+    ##########<<<<<END_B17}==>Bclass{null})
+##########<<<<<END_A16
+########## RESULTADO CodCodeAbstract(com)
+##########>>>>>START_A18
+comcb.codStandard(
+codcb:?{}==>Cod{codtype(COM_FULL_LINE), null, arrstrLine(arrstr[2]:?{ "*----", "*----" })}==>Bclass{null})
+##########<<<<<END_A18
+########## RESULTADO (Com)subStandardVsOriginal
+comcb.arrboolOriginalOK(arrbool[1]:?{ false })
+comcb.arrboolStandardOK(arrbool[2]:?{ false, false })
+
+#################### TEST COBOL A3 ##########
+strFileName("Prog_cbA.cobol")
+intLine(0), intChar(0)
+########## RESULTADO subExtraeComYAvanza
+intLine(0), intChar(65), ##########>>>>>START_A19
+codComCb(
+codcb:?{}==>Cod{codtype(COM_TAG_FULL_LINE), null, 
+    ##########>>>>>START_B20
+    arrstrLine(arrstr[1]:?
+    {
+    [0] "*<<<<<<<<<<<<<<<<TASK EWT-Cobol Rutina de prestamos>>>>>>>>>>>>>>>"<66>
+    })
+    ##########<<<<<END_B20}==>Bclass{null})
+##########<<<<<END_A19
+########## RESULTADO ComCommentsAbstract(cod)
+##########>>>>>START_A21
+comcb(
+comcb:?{}==>Com{comtype(TAG_FULL_LINE), codcb:?|look object up|, 
+    ##########>>>>>START_B22
+    arrpar(arrpar[1]:?
+    {
+    [0] Parun{strParagraph("TASK EWT-Cobol Rutina de prestamos")}==>Par{comcb:?|look object up|}==>Bclass{null}
+    })
+    ##########<<<<<END_B22}==>Bclass{null})
+##########<<<<<END_A21
+########## RESULTADO CodCodeAbstract(com)
+##########>>>>>START_A23
+comcb.codStandard(
+codcb:?{}==>Cod{codtype(COM_TAG_FULL_LINE), null, arrstrLine(arrstr[1]:?{ "*<TASK EWT-Cobol Rutina de prestamos>" })}==>Bclass{null})
+##########<<<<<END_A23
+########## RESULTADO (Com)subStandardVsOriginal
+comcb.arrboolOriginalOK(arrbool[1]:?{ true })
+comcb.arrboolStandardOK(arrbool[1]:?{ true })
+
+#################### TEST C# A1 ##########
+syspath:?[, "Prog_csA.cs", true, true, NETWORK, FILE]
+strFileName("Prog_csA.cs")
+intLine(19), intChar(60)
+########## RESULTADO subExtraeComYAvanza
+intLine(25), intChar(311), ##########>>>>>START_A24
+codComCs(
+codoo:?{}==>Cod{codtype(COM_END_OF_LINE), null, 
+    ##########>>>>>START_B25
+    arrstrLine(arrstr[7]:?
+    {
+    [0] "//LOS CONSTRUCTORES ESTÁTICOS DE LAS CLASES CodxxCodigo"<55>
+    [1] "//   DEBEN LLAMAR A   ESTE MÉTODO PARA PREPARAR SU INFORMACIÓN."<63>
+    [2] "//PREPARA MUCHAS CONSTANTES PARA FACILITAR EL PROCESO"<53>
+    [3] "//ESTOESUNAPALABRAMUYLARGAQUESEDEBECORTAR>>>>>>>>>AQUÍ<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ytambién___aquí<<<<<<."<113>
+    [4] "//2.           Separa y ordena strCHAR_A_CONVERTIR_Y_CONVERSION."<64>
+    [5] "//[            3. Ordena arrcharUTIL_EN_COM."
+    [6] "//). Ordena arrcharEN_NOMBRE y arrcharEN_NOMBRE_CHAR_1. ESTO EXCEDE      (blancos para verificar corte) EL TAMAÑO DE LA LINEA ESTRUCTURADA,+++++++ Ordena arrcharEN_NOMBRE y arrcharEN_NOMBRE_CHAR_1. ESTO EXCEDE EL TAMAÑO DE LA LINEA ESTRUCTURADA,+++++++"<252>
+    })
+    ##########<<<<<END_B25}==>Bclass{null})
+##########<<<<<END_A24
+########## RESULTADO ComCommentsAbstract(cod)
+##########>>>>>START_A26
+comoo(
+comoo:?{}==>Com{comtype(END_OF_LINE), codoo:?|look object up|, 
+    ##########>>>>>START_B27
+    arrpar(arrpar[4]:?
+    {
+    [0] Parun{strParagraph("LOS CONSTRUCTORES ESTÁTICOS DE LAS CLASES CodxxCodigo DEBEN LLAMAR A ESTE MÉTODO PARA PREPARAR SU INFORMACIÓN."<110>)}==>Par{comoo:?|look object up|}==>Bclass{null}
+    [1] Parun{strParagraph("PREPARA MUCHAS CONSTANTES PARA FACILITAR EL PROCESO ESTOESUNAPALABRAMUYLARGAQUESEDEBECORTAR>>>>>>>>>AQUÍ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ytambién___aquí <<<<<<."<165>)}==>Par{comoo:?|look object up|}==>Bclass{null}
+    [2] Parun{strParagraph("2. Separa y ordena strCHAR_A_CONVERTIR_Y_CONVERSION."<52>)}==>Par{comoo:?|look object up|}==>Bclass{null}
+    [3] Parst{
+        ##########>>>>>START_C28
+        arrstrLineParst(arrstr[3]:?
+        {
+        [0] "[            3. Ordena arrcharUTIL_EN_COM."
+        [1] "). Ordena arrcharEN_NOMBRE y arrcharEN_NOMBRE_CHAR_1. ESTO"<58>
+        [2] "]"
+        })
+        ##########<<<<<END_C28}==>Par{comoo:?|look object up|}==>Bclass{null}
+    })
+    ##########<<<<<END_B27}==>Bclass{null})
+##########<<<<<END_A26
+########## RESULTADOS arrstrParunToStandard
+##########>>>>>START_A29
+comoo.arrpar[0].arrstrLinePar(arrstr[3]:?
+{
+[0] "LOS CONSTRUCTORES ESTÁTICOS DE LAS CLASES CodxxCodigo"<53>
+[1] "      DEBEN LLAMAR A ESTE MÉTODO PARA PREPARAR SU"
+[2] "      INFORMACIÓN."
+})
+##########<<<<<END_A29
+##########>>>>>START_A30
+comoo.arrpar[1].arrstrLinePar(arrstr[4]:?
+{
+[0] "PREPARA MUCHAS CONSTANTES PARA FACILITAR EL PROCESO"<51>
+[1] "      ESTOESUNAPALABRAMUYLARGAQUESEDEBECORTAR>>>>>>>>>AQUÍ"<58>
+[2] "      <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ytambién___aquí"<58>
+[3] "      <<<<<<."
+})
+##########<<<<<END_A30
+##########>>>>>START_A31
+comoo.arrpar[2].arrstrLinePar(arrstr[1]:?
+{
+[0] "2. Separa y ordena strCHAR_A_CONVERTIR_Y_CONVERSION."<52>
+})
+##########<<<<<END_A31
+comoo.arrpar[3].arrstrLinePar(arrstr[3]:?|look object up|)
+########## RESULTADO CodCodeAbstract(com)
+##########>>>>>START_A32
+comoo.codStandard(
+codoo:?{}==>Cod{codtype(COM_END_OF_LINE), null, 
+    ##########>>>>>START_B33
+    arrstrLine(arrstr[11]:?
+    {
+    [0]  "//LOS CONSTRUCTORES ESTÁTICOS DE LAS CLASES CodxxCodigo"<55>
+    [1]  "//      DEBEN LLAMAR A ESTE MÉTODO PARA PREPARAR SU"<51>
+    [2]  "//      INFORMACIÓN."
+    [3]  "//PREPARA MUCHAS CONSTANTES PARA FACILITAR EL PROCESO"<53>
+    [4]  "//      ESTOESUNAPALABRAMUYLARGAQUESEDEBECORTAR>>>>>>>>>AQUÍ"<60>
+    [5]  "//      <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ytambién___aquí"<60>
+    [6]  "//      <<<<<<."
+    [7]  "//2. Separa y ordena strCHAR_A_CONVERTIR_Y_CONVERSION."<54>
+    [8]  "//[            3. Ordena arrcharUTIL_EN_COM."
+    [9]  "//). Ordena arrcharEN_NOMBRE y arrcharEN_NOMBRE_CHAR_1. ESTO"<60>
+    [10] "//]"
+    })
+    ##########<<<<<END_B33}==>Bclass{null})
+##########<<<<<END_A32
+########## RESULTADO (Com)subStandardVsOriginal
+comoo.arrboolOriginalOK(arrbool[7]:?{ true, false, true, false, false, false, false })
+comoo.arrboolStandardOK(arrbool[11]:?{ true, false, false, true, false, false, false, false, false, false, false })
+
+#################### TEST C# A2 ##########
+##########>>>>>START_A34
+syspathFile(
+syspath:?{strFullPath("\\Mac\Home\Documents\TOWA\QEnable_Fase1\QEnabler_Java\QEnabler Test\Data\QEnablerBase\Com\Prog_csA.cs"<101>), boolIsValid(true), boolHaveAccessTo(true), syspathwhere(NETWORK), syspathtype(FILE)}==>Bclass{lstbclass[0]:?})
+##########<<<<<END_A34
+intLine(0), intChar(0)
+########## RESULTADO subExtraeComYAvanza
+intLine(0), intChar(53), ##########>>>>>START_A35
+codComCs(
+codoo:?{}==>Cod{codtype(COM_EMBEDED), null, 
+    ##########>>>>>START_B36
+    arrstrLine(arrstr[1]:?
+    {
+    [0] "/*TASK      EWT01          (Cod)subPreparaConstantes*/"<54>
+    })
+    ##########<<<<<END_B36}==>Bclass{null})
+##########<<<<<END_A35
+########## RESULTADO ComCommentsAbstract(cod)
+##########>>>>>START_A37
+comoo(
+comoo:?{}==>Com{comtype(EMBEDED), codoo:?|look object up|, 
+    ##########>>>>>START_B38
+    arrpar(arrparun[1]:?
+    {
+    [0] Parun{strParagraph("TASK EWT01 (Cod)subPreparaConstantes")}==>Par{comoo:?|look object up|}==>Bclass{null}
+    })
+    ##########<<<<<END_B38}==>Bclass{null})
+##########<<<<<END_A37
+########## RESULTADO CodCodeAbstract(com)
+##########>>>>>START_A39
+comoo.codStandard(
+codoo:?{}==>Cod{codtype(COM_EMBEDED), null, 
+    ##########>>>>>START_B40
+    arrstrLine(arrstr[1]:?
+    {
+    [0] "/*TASK EWT01 (Cod)subPreparaConstantes*/"
+    })
+    ##########<<<<<END_B40}==>Bclass{null})
+##########<<<<<END_A39
+########## RESULTADO (Com)subStandardVsOriginal
+comoo.arrboolOriginalOK(arrbool[1]:?{ true })
+comoo.arrboolStandardOK(arrbool[1]:?{ true })
+
+#################### TEST C# A3 ##########
+##########>>>>>START_A41
+syspathFile(
+syspath:?{strFullPath("\\Mac\Home\Documents\TOWA\QEnable_Fase1\QEnabler_Java\QEnabler Test\Data\QEnablerBase\Com\Prog_csA.cs"<101>), boolIsValid(true), boolHaveAccessTo(true), syspathwhere(NETWORK), syspathtype(FILE)}==>Bclass{lstbclass[0]:?})
+##########<<<<<END_A41
+intLine(59), intChar(8)
+########## RESULTADO subExtraeComYAvanza
+intLine(61), intChar(42), ##########>>>>>START_A42
+codComCs(
+codoo:?{}==>Cod{codtype(COM_DELIMITED), null, 
+    ##########>>>>>START_B43
+    arrstrLine(arrstr[3]:?
+    {
+    [0] "/* AÑADÍ ESTO PARA PODER HACER UNA PRUEBA"
+    [1] "           esto  serán 3 líneas SERÁ MUY LARGA PARA VERIFICAR QUE LA CORTE BIEN, SERÁ MUY LARGA PARA VERIFICAR QUE CORTA<<<ESTO YA NO APARECE, FUE CORTADO>>>"<157>
+    [2] "           esta es        la última línea*/"
+    })
+    ##########<<<<<END_B43}==>Bclass{null})
+##########<<<<<END_A42
+########## RESULTADO ComCommentsAbstract(cod)
+##########>>>>>START_A44
+comoo(
+comoo:?{}==>Com{comtype(DELIMITED), codoo:?|look object up|, 
+    ##########>>>>>START_B45
+    arrpar(arrpar[3]:?
+    {
+    [0] Parun{strParagraph("AÑADÍ ESTO PARA PODER HACER UNA PRUEBA")}==>Par{comoo:?|look object up|}==>Bclass{null}
+    [1] Parst{
+        ##########>>>>>START_C46
+        arrstrLineParst(arrstr[1]:?
+        {
+        [0] "           esto  serán 3 líneas SERÁ MUY LARGA PARA VERIFICAR QUE LA CORTE BIEN, SERÁ MUY LARGA PARA VERIFICAR QUE CORTA"<120>
+        })
+        ##########<<<<<END_C46}==>Par{comoo:?|look object up|}==>Bclass{null}
+    [2] Parun{strParagraph("esta es la última línea")}==>Par{comoo:?|look object up|}==>Bclass{null}
+    })
+    ##########<<<<<END_B45}==>Bclass{null})
+##########<<<<<END_A44
+########## RESULTADO CodCodeAbstract(com)
+##########>>>>>START_A47
+comoo.codStandard(
+codoo:?{}==>Cod{codtype(COM_DELIMITED), null, 
+    ##########>>>>>START_B48
+    arrstrLine(arrstr[3]:?
+    {
+    [0] "/*AÑADÍ ESTO PARA PODER HACER UNA PRUEBA"
+    [1] "           esto  serán 3 líneas SERÁ MUY LARGA PARA VERIFICAR QUE LA CORTE BIEN, SERÁ MUY LARGA PARA VERIFICAR QUE CORTA"<120>
+    [2] "esta es la última línea*/"
+    })
+    ##########<<<<<END_B48}==>Bclass{null})
+##########<<<<<END_A47
+########## RESULTADO (Com)subStandardVsOriginal
+comoo.arrboolOriginalOK(arrbool[3]:?{ true, false, true })
+comoo.arrboolStandardOK(arrbool[3]:?{ true, false, true })
+
+#################### TEST C# A4 ##########
+##########>>>>>START_A49
+syspathFile(
+syspath:?{strFullPath("\\Mac\Home\Documents\TOWA\QEnable_Fase1\QEnabler_Java\QEnabler Test\Data\QEnablerBase\Com\Prog_csA.cs"<101>), boolIsValid(true), boolHaveAccessTo(true), syspathwhere(NETWORK), syspathtype(FILE)}==>Bclass{lstbclass[0]:?})
+##########<<<<<END_A49
+intLine(65), intChar(0)
+########## RESULTADO subExtraeComYAvanza
+intLine(65), intChar(69), ##########>>>>>START_A50
+codComCs(
+codoo:?{}==>Cod{codtype(COM_EMBEDED), null, 
+    ##########>>>>>START_B51
+    arrstrLine(arrstr[1]:?
+    {
+    [0] "/*POR ULTIMO      AÑADI ESTO PARA VER QUE PASA           SI NO CIERRA2"<70>
+    })
+    ##########<<<<<END_B51}==>Bclass{null})
+##########<<<<<END_A50
+########## RESULTADO ComCommentsAbstract(cod)
+##########>>>>>START_A52
+comoo(
+comoo:?{}==>Com{comtype(EMBEDED), codoo:?|look object up|, 
+    ##########>>>>>START_B53
+    arrpar(arrparun[1]:?
+    {
+    [0] Parun{strParagraph("POR ULTIMO AÑADI ESTO PARA VER QUE PASA SI NO CIERRA2"<53>)}==>Par{comoo:?|look object up|}==>Bclass{null}
+    })
+    ##########<<<<<END_B53}==>Bclass{null})
+##########<<<<<END_A52
+########## RESULTADO CodCodeAbstract(com)
+##########>>>>>START_A54
+comoo.codStandard(
+codoo:?{}==>Cod{codtype(COM_EMBEDED), null, 
+    ##########>>>>>START_B55
+    arrstrLine(arrstr[1]:?
+    {
+    [0] "/*POR ULTIMO AÑADI ESTO PARA VER QUE PASA SI NO CIERRA2*/"<57>
+    })
+    ##########<<<<<END_B55}==>Bclass{null})
+##########<<<<<END_A54
+########## RESULTADO (Com)subStandardVsOriginal
+comoo.arrboolOriginalOK(arrbool[1]:?{ false })
+comoo.arrboolStandardOK(arrbool[1]:?{ false })
+
+#################### TEST C# A5 ##########
+strFileName("Prog_csA.cs")
+intLine(57), intChar(60)
+########## RESULTADO subExtraeComYAvanza
+intLine(57), intChar(87), ##########>>>>>START_A56
+codComCs(
+codoo:?{}==>Cod{codtype(COM_END_OF_LINE), null, arrstrLine(arrstr[1]:?{ "//--------------------------" })}==>Bclass{null})
+##########<<<<<END_A56
+########## RESULTADO ComCommentsAbstract(cod)
+##########>>>>>START_A57
+comoo(
+comoo:?{}==>Com{comtype(END_OF_LINE), codoo:?|look object up|, 
+    ##########>>>>>START_B58
+    arrpar(arrpar[0]:?
+    {
+    })
+    ##########<<<<<END_B58}==>Bclass{null})
+##########<<<<<END_A57
+########## RESULTADO CodCodeAbstract(com)
+##########>>>>>START_A59
+comoo.codStandard(
+codoo:?{}==>Cod{codtype(COM_END_OF_LINE), null, arrstrLine(arrstr[1]:?{ "//<COMMENT_WITH_NO_PARAGRAPHS>" })}==>Bclass{null})
+##########<<<<<END_A59
+########## RESULTADO (Com)subStandardVsOriginal
+comoo.arrboolOriginalOK(arrbool[1]:?{ false })
+comoo.arrboolStandardOK(arrbool[1]:?{ false })
+
+#################### Bclass SUMMARY ##########
+##########>>>>>START_A60
+BclassBaseClassAbstract.dicintObjectCount(dicint[8]:?
+{
+[QEnablerBase.ParemEmpty|INMUTABLE]                5
+[QEnablerBase.ParstStructured|INMUTABLE]           5
+[QEnablerBase.ParunUnstructured|INMUTABLE]         13
+[QEnablerCobol.CodcbCobol|INMUTABLE]               9
+[QEnablerCobol.ComcbCobol|INMUTABLE]               3
+[QEnablerObjectOriented.CodooObjectOriented|INMUTABLE] 11
+[QEnablerObjectOriented.ComooObjectOriented|INMUTABLE] 5
+[TowaInfrastructure.SyspathPath|MUTABLE]           25
+})
+##########<<<<<END_A60
+intObjectsCount(76), BclassBaseClassAbstract.intUsedInAddTotalCount(0), BclassBaseClassAbstract.intUsedInRemoveTotalCount(0)
+intMemoryUsedMB(0)

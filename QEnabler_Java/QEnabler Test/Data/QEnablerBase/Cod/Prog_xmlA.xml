@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Esto es un comentario-->
+<!--Esto es un comentario que esta muy largo debe ser cortado. El fin de esta oracion debe ser lo >>>>>>>>>>>>ultimo<<<<<<<<<<<<<<<<<<<<
+<!
+<otroElemento>&amp;Hola'a'"a"</otroElemento>
+<tercer_elemento>nϊmeros:123456</tercer_elemento>
+-->
+<note>
+    <elemento>Contenido</elemento>
+    <elemento-2>Con acentos αινσϊ</elemento-2>
+</note>

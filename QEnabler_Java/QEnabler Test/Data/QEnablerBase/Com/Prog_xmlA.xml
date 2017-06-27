@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--AGREGUE esto para poder hacer una prueba. Esto es un parun porque es la primer linea de un delimited.
+    Aqui hay espacios antes del inicio de la oracion y          aqui. Esto es parst, se deben conservar los espacios.
+    Sigue          el          parst.
+    Esta linea esta para verificar que las lineas son cortadas correctamente, esta muy largo y se corta >>>>>>>>>>>>aqui<<<<<<<esto no debe aparecer.
+    esto es la ultima linea, un parun y los espacios como            este        son eliminados. -->
+<note>
+    <elemento>Contenido</elemento>
+    <elemento-2>Mas contenido<!--Comentario embebido--></elemento-2>
+</note>
+<!--Un comentario que no tiene closing tag
