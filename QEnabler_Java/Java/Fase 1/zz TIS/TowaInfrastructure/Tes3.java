@@ -7,6 +7,9 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Stack;
+import java.util.*;
 
 
 //AUTHOR: Towa (EELR-Elí Linares).
@@ -144,7 +147,7 @@ public class Tes3
     //------------------------------------------------------------------------------------------------------------------
 
     //==============================================================================================================
-    /*TASK Tes2.Types Set of Methods to Analize Types*/
+    /*TASK Tes3.Types Set of Methods to Analize Types*/
     //------------------------------------------------------------------------------------------------------------------
     /*CONSTANTS*/
                                                             //Towa's standard primitives
@@ -916,8 +919,10 @@ public class Tes3
             }
             else
             {
+                //TODO Implementar que en vez de obj_I, sea objMain
                                                             //Is single type
-                strToSupportAnyType = Tes3.strFormatSingle(objMain, testoptionOption_I, strText_I);
+                //strToSupportAnyType = Tes3.strFormatSingle(objMain, testoptionOption_I, strText_I);
+                strToSupportAnyType = Tes3.strFormatSingle(obj_I, testoptionOption_I, strText_I);
             }
             /*END-CASE*/
         }
@@ -1279,7 +1284,7 @@ public class Tes3
         if (
             Tes3.intLevel < 0
             )
-            Tools.subAbort(Tes3.strTo(Tes3.intLevel, "Tes2.intNivel") + " should be 0 or positive");
+            Tools.subAbort(Tes3.strTo(Tes3.intLevel, "Tes3.intNivel") + " should be 0 or positive");
 
                                                             //Determina la cantidad de espacios para la indentación.
         int intSpaces;
@@ -1903,6 +1908,7 @@ public class Tes3
     }
     /*END-TASK*/
 
+
     //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     private static String strPrefix(                        //Generate the object prefix corresponding to type.
                                                             //Class Name has the structure:
@@ -2245,8 +2251,8 @@ public class Tes3
                                                             //instanceof primitive type
                 (Arrays.binarySearch(Tes3.arrstrPRIMITIVE_TYPE, classElement.getSimpleName()) >= 0)
                 )
-                Tools.subAbort(Tes3.strTo(Tes3.arrstrPRIMITIVE_TYPE, "Tes2.arrstrPRIMITIVE_TYPE") + ", " +
-                    Tes2.strTo(classObj, "obj_I.getClass()") +
+                Tools.subAbort(Tes3.strTo(Tes3.arrstrPRIMITIVE_TYPE, "Tes3.arrstrPRIMITIVE_TYPE") + ", " +
+                    Tes3.strTo(classObj, "obj_I.getClass()") +
                     " SOMETHING is WRONG!!! a branch in previous case is missing");
 
             intLength = ((Object[])obj_I).length;
@@ -2586,10 +2592,10 @@ public class Tes3
             Class typeElement = typeObj.getComponentType();
             if (
                 //instanceof primitive type
-                    (Arrays.binarySearch(Tes2.arrstrPRIMITIVE_TYPE, typeElement.getSimpleName()) >= 0)
+                    (Arrays.binarySearch(Tes3.arrstrPRIMITIVE_TYPE, typeElement.getSimpleName()) >= 0)
                     )
-                Tools.subAbort(Tes2.strTo(Tes2.arrstrPRIMITIVE_TYPE, "Test.arrstrPRIMITIVE_TYPE") + ", " +
-                        Tes2.strTo(typeObj, "obj_I.GetType") +
+                Tools.subAbort(Tes3.strTo(Tes3.arrstrPRIMITIVE_TYPE, "Test.arrstrPRIMITIVE_TYPE") + ", " +
+                        Tes3.strTo(typeObj, "obj_I.GetType") +
                         " SOMETHING instanceof WRONG!!! a branch in previous case instanceof missing");
 
 
@@ -2621,6 +2627,1419 @@ public class Tes3
 
         return "[" + intLength0 + "," + intLength1 + "," + intLength2 + "]";
     }
+
+    //------------------------------------------------------------------------------------------------------------------
+    private static String strLstSize(                       //Get [l].
+
+                                                            //str, [l].
+
+        Object obj_I
+        )
+    {
+        //TODO: GetGenericArguments is commented in this and subsequent methods.
+        String strCount;
+        if (obj_I instanceof LinkedList)
+        {
+            strCount = Integer.toString(((LinkedList)obj_I).size());
+        }
+        else
+        {
+//            Class classObj = obj_I.getClass();
+//            if (
+//            Tools.boolIsGenericType(classObj)
+//            )
+//        {
+//                                                            dic, kvp, lst, queue or stack
+//            strPrefix = Tes2.arrstrGENERIC_PREFIX[
+//                Arrays.binarySearch(Tes2.arrstrGENERIC_TYPE, classObj.getSimpleName())];
+//
+//            if (
+//                                                            The generic arguments of the collection can be obtained.
+//                Tools.boolGenericArgumentsPossible(obj_I)
+//                )
+//            {
+//                Class[] arrClassArgument = Tools.arrclassGetGenericArguments(obj_I);
+//
+//                if (
+//                                                            Generic arguments were obtained.
+//                    arrClassArgument.length > 0
+//                    )
+//                {
+//                    strPrefix = strPrefix + Tes2.strPrefix(arrClassArgument[arrClassArgument.length - 1]);
+//                }
+//                else
+//                {
+//                    strPrefix = strPrefix + "EMPTY_COLLECTION";
+//                }
+//            }
+//            else
+//            {
+//                strPrefix = strPrefix + "EMPTY_COLLECTION";
+//            }
+//        }
+//            Type typeObj = obj_I.GetType();
+//            Type typeArgument = typeObj.GetGenericArguments()[0];
+//            if (
+//                                                            //Is primitive type
+//                (Array.BinarySearch(Tes2.arrstrPRIMITIVE_TYPE, typeArgument.Name) >= 0)
+//                )
+//                Tools.subWarning(Tes2.strTo(Tes2.arrstrPRIMITIVE_TYPE, "Tes2.arrstrPRIMITIVE_TYPE") + ", " +
+//                    Tes2.strTo(typeObj, "obj_I.GetType") +
+//                    " SOMETHING IS WRONG!!! a branch in previous case is missing, you may continue");
+//            if (
+//                                                            //Is system type
+//                (Array.BinarySearch(Tes2.arrstrSYSTEM_TYPE, typeArgument.Name) >= 0)
+//                )
+//                Tools.subWarning(Tes2.strTo(Tes2.arrstrSYSTEM_TYPE, "Tes2.arrstrSYSTEM_TYPE") + ", " +
+//                    Tes2.strTo(typeObj, "obj_I.GetType") +
+//                    " SOMETHING IS WRONG!!! a branch in previous case is missing, you may continue");
+
+            //Can note get count.
+            strCount = "?";
+        }
+        return "[" + strCount + "]";
+    }
+
+    //------------------------------------------------------------------------------------------------------------------
+    private static String strQueueSize(                     //Get [l].
+
+                                                            //str, [l].
+        Object obj_I
+        )
+    {
+        String strCount;
+        if (obj_I instanceof Queue)
+        {
+            strCount = Integer.toString(((Queue)obj_I).size());
+        }
+        else
+        {
+//            Type typeObj = obj_I.GetType();
+//            Type typeArgument = typeObj.GetGenericArguments()[0];
+//            if (
+//                                                            //Is primitive type
+//                (Array.BinarySearch(Tes2.arrstrPRIMITIVE_TYPE, typeArgument.Name) >= 0)
+//                )
+//                Tools.subWarning(Tes2.strTo(Tes2.arrstrPRIMITIVE_TYPE, "Tes2.arrstrPRIMITIVE_TYPE") + ", " +
+//                    Tes2.strTo(typeObj, "obj_I.GetType") +
+//                    " SOMETHING IS WRONG!!! a branch in previous case is missing, you may continue");
+//            if (
+//                                                            //Is system type
+//                (Array.BinarySearch(Tes2.arrstrSYSTEM_TYPE, typeArgument.Name) >= 0)
+//                )
+//                Tools.subWarning(Tes2.strTo(Tes2.arrstrSYSTEM_TYPE, "Tes2.arrstrSYSTEM_TYPE") + ", " +
+//                    Tes2.strTo(typeObj, "obj_I.GetType") +
+//                    " SOMETHING IS WRONG!!! a branch in previous case is missing, you may continue");
+
+            //Can note get count.
+            strCount = "?";
+        }
+        return "[" + strCount + "]";
+    }
+
+    //------------------------------------------------------------------------------------------------------------------
+    private static String strStackSize(                     //Get [l].
+
+                                                            //str, [l].
+
+        Object obj_I
+        )
+    {
+        String strCount;
+        if (
+            obj_I instanceof Stack
+            )
+        {
+            strCount = Integer.toString(((Stack)obj_I).size());
+        }
+        else
+        {
+//            Type typeObj = obj_I.GetType();
+//            Type typeArgument = typeObj.GetGenericArguments()[0];
+//            if (
+//                                                            //Is primitive type
+//                (Array.BinarySearch(Tes2.arrstrPRIMITIVE_TYPE, typeArgument.Name) >= 0)
+//                )
+//                Tools.subWarning(Tes2.strTo(Tes2.arrstrPRIMITIVE_TYPE, "Tes2.arrstrPRIMITIVE_TYPE") + ", " +
+//                    Tes2.strTo(typeObj, "obj_I.GetType") +
+//                    " SOMETHING IS WRONG!!! a branch in previous case is missing, you may continue");
+//            if (
+//                                                            //Is system type
+//                (Array.BinarySearch(Tes2.arrstrSYSTEM_TYPE, typeArgument.Name) >= 0)
+//                )
+//                Tools.subWarning(Tes2.strTo(Tes2.arrstrSYSTEM_TYPE, "Tes2.arrstrSYSTEM_TYPE") + ", " +
+//                    Tes2.strTo(typeObj, "obj_I.GetType") +
+//                    " SOMETHING IS WRONG!!! a branch in previous case is missing, you may continue");
+
+            //Can note get count.
+            strCount = "?";
+        }
+        return "[" + strCount + "]";
+    }
+
+    //------------------------------------------------------------------------------------------------------------------
+    private static String strDicSize(                       //Get [l].
+
+                                                            //str, [l].
+
+        Object obj_I
+        )
+    {
+        String strCount;
+        if (
+            obj_I instanceof LinkedHashMap
+            )
+        {
+            strCount = Integer.toString(((LinkedHashMap)obj_I).size());
+        }
+        else
+        {
+            //TODO: GetGenericArguments cannot be done.
+//            Type typeObj = obj_I.GetType();
+//            Type typeArgument = typeObj.GetGenericArguments()[1];
+//            if (
+//                                                            //Is primitive type
+//                (Array.BinarySearch(Tes2.arrstrPRIMITIVE_TYPE, typeArgument.Name) >= 0)
+//                )
+//                Tools.subWarning(Tes2.strTo(Tes2.arrstrPRIMITIVE_TYPE, "Tes2.arrstrPRIMITIVE_TYPE") + ", " +
+//                    Tes2.strTo(typeObj, "obj_I.GetType") +
+//                    " SOMETHING IS WRONG!!! a branch in previous case is missing, you may continue");
+//            if (
+//                                                            //Is system type
+//                (Array.BinarySearch(Tes2.arrstrSYSTEM_TYPE, typeArgument.Name) >= 0)
+//                )
+//                Tools.subWarning(Tes2.strTo(Tes2.arrstrSYSTEM_TYPE, "Tes2.arrstrSYSTEM_TYPE") + ", " +
+//                    Tes2.strTo(typeObj, "obj_I.GetType") +
+//                    " SOMETHING IS WRONG!!! a branch in previous case is missing, you may continue");
+
+                                                            //Can not get count.
+            strCount = "?";
+        }
+        return "[" + strCount + "]";
+    }
+
+    //------------------------------------------------------------------------------------------------------------------
+    private static Class classOfArray(                      //Get the class of the elements of an array. For example,
+                                                            //      get int from int[], String from String[][], etc.
+                                                            // This method will work in similar way to C#'s
+                                                            //      type.GetElementType()
+                                                            //Java's method class.getComponentType() will be used,
+                                                            //      however, it works differently than C#'s
+                                                            //      type.GetElementType(), because in Java, due to the
+                                                            //      fact that a multidimensional array is
+                                                            //      technically, which means that the elementType of a
+                                                            //      3D array is actually a 2D array. Examples:
+                                                            //Note that int[].getComponentType returns class int;
+                                                            //      int[][].getComponentType returns class int[];
+                                                            //      int[][][].getComponentType return class int[][].
+
+                                                            //The class of an array from which the element type should
+                                                            //      be extracted.
+
+        Class class_I
+        )
+    {
+        Class classOfArray;
+        if (
+            class_I == null
+            )
+        {
+            Tools.subAbort(Tes3.strTo(class_I, "class_I") + " should not be null.");
+            classOfArray = null;
+        }
+        if (!(
+            class_I.isArray()
+            ))
+        {
+            Tools.subAbort(Tes3.strTo(class_I, "class_I") + " is not the class of an array.");
+            classOfArray = null;
+        }
+        /*CASE*/
+        if (
+            int[].class.isAssignableFrom(class_I)
+            )
+        {
+            classOfArray = class_I.getComponentType();
+        }
+        else if (
+            int[][].class.isAssignableFrom(class_I)
+            )
+        {
+            classOfArray = class_I.getComponentType().getComponentType();
+        }
+        else if (
+            int[][][].class.isAssignableFrom(class_I)
+            )
+        {
+            classOfArray = class_I.getComponentType().getComponentType().getComponentType();
+        }
+        else if (
+            long[].class.isAssignableFrom(class_I)
+            )
+        {
+            classOfArray = class_I.getComponentType();
+        }
+        else if (
+            long[][].class.isAssignableFrom(class_I)
+            )
+        {
+            classOfArray = class_I.getComponentType().getComponentType();
+        }
+        else if (
+            long[][][].class.isAssignableFrom(class_I)
+            )
+        {
+            classOfArray = class_I.getComponentType().getComponentType().getComponentType();
+        }
+        else if (
+            boolean[].class.isAssignableFrom(class_I)
+            )
+        {
+            classOfArray = class_I.getComponentType();
+        }
+        else if (
+            boolean[][].class.isAssignableFrom(class_I)
+            )
+        {
+            classOfArray = class_I.getComponentType().getComponentType();
+        }
+        else if (
+            boolean[][][].class.isAssignableFrom(class_I)
+            )
+        {
+            classOfArray = class_I.getComponentType().getComponentType().getComponentType();
+        }
+        else if (
+            char[].class.isAssignableFrom(class_I)
+            )
+        {
+            classOfArray = class_I.getComponentType();
+        }
+        else if (
+            char[][].class.isAssignableFrom(class_I)
+            )
+        {
+            classOfArray = class_I.getComponentType().getComponentType();
+        }
+        else if (
+            char[][][].class.isAssignableFrom(class_I)
+            )
+        {
+            classOfArray = class_I.getComponentType().getComponentType().getComponentType();
+        }
+        else if (
+            double[].class.isAssignableFrom(class_I)
+            )
+        {
+            classOfArray = class_I.getComponentType();
+        }
+        else if (
+            double[][].class.isAssignableFrom(class_I)
+            )
+        {
+            classOfArray = class_I.getComponentType().getComponentType();
+        }
+        else if (
+            double[][][].class.isAssignableFrom(class_I)
+            )
+        {
+            classOfArray = class_I.getComponentType().getComponentType().getComponentType();
+        }
+        else if (
+            Object[][][].class.isAssignableFrom(class_I)
+            )
+        {
+            classOfArray = class_I.getComponentType().getComponentType().getComponentType();
+        }
+        else if (
+            Object[][].class.isAssignableFrom(class_I)
+            )
+        {
+            classOfArray = class_I.getComponentType().getComponentType();
+        }
+        else if (
+            Object[].class.isAssignableFrom(class_I)
+        )
+        {
+            classOfArray = class_I.getComponentType();
+        }
+        else
+        {
+                Tools.subAbort(Tes3.strTo(class_I, "class_I") +
+                    " is an array but is not of rank 1,2 or 3. It is not [], [,], or [,,]");
+            classOfArray = null;
+        }
+        /*END-CASE*/
+        return classOfArray;
+    }
+
+    //==================================================================================================================
+    /*TASK Tools.boolMultiDimensionArrayIsStandard. Check if multidimension array is standard according to its size*/
+    //------------------------------------------------------------------------------------------------------------------
+    private static boolean boolMultiDimensionArrayIsStandard(
+                                                            //Check if the incoming array is standard for a
+                                                            //      multidimensional arr. This means that even though,
+                                                            //      technically, in Java, multidimensional arrays are
+                                                            //      arrays of arrays, standard  arrays must be 2D o 3D.
+                                                            //      This means that, an array like this cannot exist:
+                                                            //[
+                                                            //  arr[0] = elem1, elem2, elem3
+                                                            //  arr[1] = elem1, elem2
+                                                            //  arr[2] = elem1
+                                                            //]
+                                                            //It will also be checked that the arrays inside the arrays
+                                                            //       (inner arrays) are not nulls. For example an
+                                                            //        invalid 3D array:
+                                                            //[
+                                                            //   arr3d[][][] = new arr[2][1][1]
+                                                            //   arr3d[0] = new arr[1][1]
+                                                            //   arr3d[1] = null
+                                                            //]
+                                                            //Instead, the arrays must be like this (2D):
+                                                            //[
+                                                            //   arr[0] = elem1, elem2, elem3
+                                                            //   arr[1] = elem1, elem2, elem3
+                                                            //   arr[2] = elem1, elem2, elem3
+                                                            //]
+                                                            //In context of C#, the permitted multidimensional arrays
+                                                            //      are: arr[], arr[,], and arr[,,].
+
+                                                            //Note that in the case in which it's decided if the obj is
+                                                            //      an instance of int[], int[][], ... Object[], etc.,
+                                                            //      the branch for "instanceof Object[][][]" is before
+                                                            //      the bracnh for "instanceof Object[][]" and the
+                                                            //      branch for "instanceof Object[]". This is because an
+                                                            //      object which is instanceof Object[][][], will also
+                                                            //      be instanceof Object[][] and instanceof Object[], so
+                                                            //      this issue is solved by the priority in which the
+                                                            //      object tries to enter the branches of the case. So,
+                                                            //      if an object is instanceof Object[][][], it will not
+                                                            //      try to enter the instanceof Object[][] and
+                                                            //      instanceof Object[] branches.
+
+                                                            //Object to be analyzed. Array.
+        Object obj_I
+    )
+    {
+        boolean boolMultiDimensionArrayIsStandard;
+        if (
+            obj_I == null
+            )
+        {
+            Tools.subAbort(Tes3.strTo(obj_I, "obj_I") + " can not be null");
+            boolMultiDimensionArrayIsStandard = false;
+        }
+
+
+        if (!(
+            obj_I.getClass().isArray()
+        ))
+        {
+            Tools.subAbort(Tes3.strTo(obj_I.getClass(), "obj_I.getClass()") + " is not the class of an array.");
+            boolMultiDimensionArrayIsStandard = false;
+        }
+        else
+        {
+            /*CASE*/
+            if (
+                obj_I instanceof int[]
+                )
+            {
+                boolMultiDimensionArrayIsStandard = true;
+            }
+            else if (
+                obj_I instanceof int[][]
+                )
+            {
+                boolMultiDimensionArrayIsStandard = Tes3.boolArr2DIsStandard((int[][]) obj_I);
+            }
+            else if (
+                obj_I instanceof int[][][]
+                )
+            {
+                boolMultiDimensionArrayIsStandard = Tes3.boolArr3DIsStandard((int[][][]) obj_I);
+            }
+            else if (
+                obj_I instanceof long[]
+                )
+            {
+                boolMultiDimensionArrayIsStandard = true;
+            }
+            else if (
+                obj_I instanceof long[][]
+                )
+            {
+                boolMultiDimensionArrayIsStandard = Tes3.boolArr2DIsStandard((long[][]) obj_I);
+            }
+            else if (
+                obj_I instanceof long[][][]
+                )
+            {
+                boolMultiDimensionArrayIsStandard = Tes3.boolArr3DIsStandard((long[][][]) obj_I);
+            }
+            else if (
+                obj_I instanceof boolean[]
+                )
+            {
+                boolMultiDimensionArrayIsStandard = true;
+            }
+            else if (
+                obj_I instanceof boolean[][]
+                )
+            {
+                boolMultiDimensionArrayIsStandard = Tes3.boolArr2DIsStandard((boolean[][]) obj_I);
+            }
+            else if (
+                obj_I instanceof boolean[][][]
+                )
+            {
+                boolMultiDimensionArrayIsStandard = Tes3.boolArr3DIsStandard((boolean[][][]) obj_I);
+            }
+            else if (
+                obj_I instanceof char[]
+                )
+            {
+                boolMultiDimensionArrayIsStandard = true;
+            }
+            else if (
+                obj_I instanceof char[][]
+                )
+            {
+                boolMultiDimensionArrayIsStandard = Tes3.boolArr2DIsStandard((char[][]) obj_I);
+            }
+            else if (
+                obj_I instanceof char[][][]
+                )
+            {
+                boolMultiDimensionArrayIsStandard = Tes3.boolArr3DIsStandard((char[][][]) obj_I);
+            }
+            else if (
+                obj_I instanceof double[]
+                )
+            {
+                boolMultiDimensionArrayIsStandard = true;
+            }
+            else if (
+                obj_I instanceof double[][]
+                )
+            {
+                boolMultiDimensionArrayIsStandard = Tes3.boolArr2DIsStandard((double[][]) obj_I);
+            }
+            else if (
+                obj_I instanceof double[][][]
+                )
+            {
+                boolMultiDimensionArrayIsStandard = Tes3.boolArr3DIsStandard((double[][][]) obj_I);
+            }
+            else if (
+                obj_I instanceof Object [][][]
+                )
+            {
+                boolMultiDimensionArrayIsStandard = Tes3.boolArr3DIsStandard((Object[][][])obj_I);
+            }
+            else if (
+                obj_I instanceof Object [][]
+                )
+            {
+                boolMultiDimensionArrayIsStandard = Tes3.boolArr2DIsStandard((Object[][])obj_I);
+            }
+            else if (
+                obj_I instanceof Object[]
+                )
+            {
+                boolMultiDimensionArrayIsStandard = true;
+            }
+            else
+            {
+                Tools.subAbort(Tes3.strTo(obj_I, "obj_I") +
+                    " is an array but is not of rank 1,2 or 3. It is not [], [,], or [,,]");
+                boolMultiDimensionArrayIsStandard = false;
+            }
+            /*END-CASE*/
+        }
+
+        return boolMultiDimensionArrayIsStandard;
+    }
+
+    //------------------------------------------------------------------------------------------------------------------
+    private static boolean boolArr2DIsStandard(             //Find if an arr2D of int's is standard.
+        int [][] arr2int
+        )
+    {
+        boolean boolArr2DIsStandard;
+        int intLength;
+        /*CASE*/
+        if (
+                                                            //The array is of length 0.
+            arr2int.length == 0
+            )
+        {
+                                                            //The array is of length 0, so no element inside the array,
+                                                            //      arr[0] f.e., can be checked. Nevertheless, it will
+                                                            //      be treated as a standard array, and it will be
+                                                            //      assumed that the second dimension is also of size 0.
+                                                            //      This will be a coding standard. So a bidimensional
+                                                            //      array with its first dimension of size 0, shall have
+                                                            //      its second dimension of size 0 as well ([0,0]).
+            boolArr2DIsStandard = true;
+        }
+        else if (
+                                                            //The array inside the array (inner array) is null.
+            arr2int[0] == null
+            )
+        {
+            boolArr2DIsStandard = false;
+        }
+        else
+        {
+                                                            //The length of each array should be the same as the first.
+            intLength = arr2int[0].length;
+            int intI = 1;
+            /*UNTIL-DO*/
+            while (!(
+                (intI >= arr2int.length) ||
+                (arr2int[intI] == null) ||
+                                                            //The inner array is of different size than the others.
+                (arr2int[intI].length != intLength)
+            ))
+            {
+                intI = intI + 1;
+            }
+
+                                                            //All inner arrays were of the same size ([l,m])
+            boolArr2DIsStandard = intI >= arr2int.length;
+        }
+        /*END-CASE*/
+
+        return boolArr2DIsStandard;
+    }
+
+    //------------------------------------------------------------------------------------------------------------------
+    private static boolean boolArr2DIsStandard(             //Find if an arr2D of long's is standard.
+        long [][] arr2long
+        )
+    {
+        boolean boolArr2DIsStandard;
+        int intLength;
+        /*CASE*/
+        if (
+                                                            //The array is of length 0.
+            arr2long.length == 0
+            )
+        {
+                                                            //The array is of length 0, so no element inside the array,
+                                                            //      arr[0] f.e., can be checked. Nevertheless, it will
+                                                            //      be treated as a standard array, and it will be
+                                                            //      assumed that the second dimension is also of size 0.
+                                                            //      This will be a coding standard. So a bidimensional
+                                                            //      array with its first dimension of size 0, shall have
+                                                            //      its second dimension of size 0 as well ([0,0]).
+            boolArr2DIsStandard = true;
+        }
+        else if (
+                                                            //The array inside the array (inner array) is null.
+            arr2long[0] == null
+            )
+        {
+            boolArr2DIsStandard = false;
+        }
+        else
+        {
+                                                            //The length of each array should be the same as the first.
+            intLength = arr2long[0].length;
+            int intI = 1;
+            /*UNTIL-DO*/
+            while (!(
+                (intI >= arr2long.length) ||
+                (arr2long[intI] == null) ||
+                                                            //The inner array is of different size than the others.
+                (arr2long[intI].length != intLength)
+            ))
+            {
+                intI = intI + 1;
+            }
+
+                                                            //All inner arrays were of the same size ([l,m])
+            boolArr2DIsStandard = intI >= arr2long.length;
+        }
+        /*END-CASE*/
+
+        return boolArr2DIsStandard;
+    }
+
+    //------------------------------------------------------------------------------------------------------------------
+    private static boolean boolArr2DIsStandard(             //Find if an arr2D of boolean's is standard.
+        boolean [][] arr2boolean
+        )
+    {
+        boolean boolArr2DIsStandard;
+        int intLength;
+        /*CASE*/
+        if (
+                                                            //The array is of length 0.
+            arr2boolean.length == 0
+            )
+        {
+                                                            //The array is of length 0, so no element inside the array,
+                                                            //      arr[0] f.e., can be checked. Nevertheless, it will
+                                                            //      be treated as a standard array, and it will be
+                                                            //      assumed that the second dimension is also of size 0.
+                                                            //      This will be a coding standard. So a bidimensional
+                                                            //      array with its first dimension of size 0, shall have
+                                                            //      its second dimension of size 0 as well ([0,0]).
+            boolArr2DIsStandard = true;
+        }
+        else if (
+                                                            //The array inside the array (inner array) is null.
+            arr2boolean[0] == null
+            )
+        {
+            boolArr2DIsStandard = false;
+        }
+        else
+        {
+                                                            //The length of each array should be the same as the first.
+            intLength = arr2boolean[0].length;
+            int intI = 1;
+            /*UNTIL-DO*/
+            while (!(
+                (intI >= arr2boolean.length) ||
+                (arr2boolean[intI] == null) ||
+                                                            //The inner array is of different size than the others.
+                (arr2boolean[intI].length != intLength)
+            ))
+            {
+                intI = intI + 1;
+            }
+
+                                                            //All inner arrays were of the same size ([l,m])
+            boolArr2DIsStandard = intI >= arr2boolean.length;
+        }
+        /*END-CASE*/
+
+        return boolArr2DIsStandard;
+    }
+
+    //------------------------------------------------------------------------------------------------------------------
+    private static boolean boolArr2DIsStandard(             //Find if an arr2D of char's is standard.
+        char [][] arr2char
+        )
+    {
+        boolean boolArr2DIsStandard;
+        int intLength;
+        /*CASE*/
+        if (
+                                                            //The array is of length 0.
+            arr2char.length == 0
+            )
+        {
+                                                            //The array is of length 0, so no element inside the array,
+                                                            //      arr[0] f.e., can be checked. Nevertheless, it will
+                                                            //      be treated as a standard array, and it will be
+                                                            //      assumed that the second dimension is also of size 0.
+                                                            //      This will be a coding standard. So a bidimensional
+                                                            //      array with its first dimension of size 0, shall have
+                                                            //      its second dimension of size 0 as well ([0,0]).
+            boolArr2DIsStandard = true;
+        }
+        else if (
+                                                            //The array inside the array (inner array) is null.
+            arr2char[0] == null
+            )
+        {
+            boolArr2DIsStandard = false;
+        }
+        else
+        {
+                                                            //The length of each array should be the same as the first.
+            intLength = arr2char[0].length;
+            int intI = 1;
+            /*UNTIL-DO*/
+            while (!(
+                (intI >= arr2char.length) ||
+                (arr2char[intI] == null) ||
+                                                            //The inner array is of different size than the others.
+                (arr2char[intI].length != intLength)
+            ))
+            {
+                intI = intI + 1;
+            }
+
+                                                            //All inner arrays were of the same size ([l,m])
+            boolArr2DIsStandard = intI >= arr2char.length;
+        }
+        /*END-CASE*/
+
+        return boolArr2DIsStandard;
+    }
+
+    //------------------------------------------------------------------------------------------------------------------
+    private static boolean boolArr2DIsStandard(             //Find if an arr2D of double's is standard.
+        double [][] arr2num
+        )
+    {
+        boolean boolArr2DIsStandard;
+        int intLength;
+        /*CASE*/
+        if (
+                                                            //The array is of length 0.
+            arr2num.length == 0
+            )
+        {
+                                                            //The array is of length 0, so no element inside the array,
+                                                            //      arr[0] f.e., can be checked. Nevertheless, it will
+                                                            //      be treated as a standard array, and it will be
+                                                            //      assumed that the second dimension is also of size 0.
+                                                            //      This will be a coding standard. So a bidimensional
+                                                            //      array with its first dimension of size 0, shall have
+                                                            //      its second dimension of size 0 as well ([0,0]).
+            boolArr2DIsStandard = true;
+        }
+        else if (
+                                                            //The array inside the array (inner array) is null.
+            arr2num[0] == null
+            )
+        {
+            boolArr2DIsStandard = false;
+        }
+        else
+        {
+                                                            //The length of each array should be the same as the first.
+            intLength = arr2num[0].length;
+            int intI = 1;
+            /*UNTIL-DO*/
+            while (!(
+                (intI >= arr2num.length) ||
+                (arr2num[intI] == null) ||
+                                                            //The inner array is of different size than the others.
+                (arr2num[intI].length != intLength)
+            ))
+            {
+                intI = intI + 1;
+            }
+
+                                                            //All inner arrays were of the same size ([l,m])
+            boolArr2DIsStandard = intI >= arr2num.length;
+        }
+        /*END-CASE*/
+
+        return boolArr2DIsStandard;
+    }
+
+    //------------------------------------------------------------------------------------------------------------------
+    private static boolean boolArr2DIsStandard(             //Find if an arr2D of Object's is standard.
+        Object [][] arr2Object
+        )
+    {
+        boolean boolArr2DIsStandard;
+        int intLength;
+        /*CASE*/
+        if (
+                                                            //The array is of length 0.
+            arr2Object.length == 0
+            )
+        {
+                                                            //The array is of length 0, so no element inside the array,
+                                                            //      arr[0] f.e., can be checked. Nevertheless, it will
+                                                            //      be treated as a standard array, and it will be
+                                                            //      assumed that the second dimension is also of size 0.
+                                                            //      This will be a coding standard. So a bidimensional
+                                                            //      array with its first dimension of size 0, shall have
+                                                            //      its second dimension of size 0 as well ([0,0]).
+            boolArr2DIsStandard = true;
+        }
+        else if (
+                                                            //The array inside the array (inner array) is null.
+            arr2Object[0] == null
+            )
+        {
+            boolArr2DIsStandard = false;
+        }
+        else
+        {
+                                                            //The length of each array should be the same as the first.
+            intLength = arr2Object[0].length;
+            int intI = 1;
+            /*UNTIL-DO*/
+            while (!(
+                (intI >= arr2Object.length) ||
+                (arr2Object[intI] == null) ||
+                                                            //The inner array is of different size than the others.
+                (arr2Object[intI].length != intLength)
+            ))
+            {
+                intI = intI + 1;
+            }
+
+                                                            //All inner arrays were of the same size ([l,m])
+            boolArr2DIsStandard = intI >= arr2Object.length;
+        }
+        /*END-CASE*/
+
+        return boolArr2DIsStandard;
+    }
+
+    //------------------------------------------------------------------------------------------------------------------
+    private static boolean boolArr3DIsStandard(             //Find if an arr3D of int's is standard.
+        int [][][] arr3int
+        )
+    {
+        boolean boolArr3DIsStandard = true;
+        int intLength2D;
+        int intLength3D;
+
+        /*CASE*/
+        if (
+                                                            //The array is of length 0.
+            arr3int.length == 0
+            )
+        {
+                                                            //The array is of length 0, so no element inside the array,
+                                                            //      arr[0] f.e., can be checked. Nevertheless, it will
+                                                            //      be treated as a standard array, and it will be
+                                                            //      assumed that the second and third dimensions are
+                                                            //      also of size 0. This will be a coding standard. So a
+                                                            //      3d array with its first dimension of size 0, shall
+                                                            //      have its second and third dimensions of size 0 as
+                                                            //      well ([0,0,0]).
+            boolArr3DIsStandard = true;
+        }
+        else if (
+                                                            //The 2d array is null, meaning that it's being trated as an
+                                                            //      array of arrays instead of a multidimensional arr.
+            arr3int[0] == null
+            )
+        {
+            boolArr3DIsStandard = false;
+        }
+        else if (
+                                                            //2d is of size 0.
+            arr3int[0].length == 0
+            )
+        {
+                                                            //It will be trated as standard multidimensional array. In
+                                                            //      other methods it wil be assumed that the 3d is also
+                                                            //      of size 0.
+            boolArr3DIsStandard = true;
+        }
+        else if (
+                                                            //The arrays inside the array (inner arrays) are null or
+                                                            //      have nothing.
+            arr3int[0][0] == null
+            )
+        {
+            boolArr3DIsStandard = false;
+        }
+        else
+        {
+                                                            //The length of the 2D array.
+            intLength2D = arr3int[0].length;
+                                                            //The length of the 3D array.
+            intLength3D = arr3int[0][0].length;
+            int intI = 0;
+            int intJ = 0;
+            /*UNTIL-DO*/
+            while (!(
+                                                            //It has been determined that it's not standard.
+                !boolArr3DIsStandard ||
+                (intI >= arr3int.length) ||
+                (arr3int[intI] == null) ||
+                                                            //The inner array is of different size than the others.
+                (arr3int[intI].length != intLength2D)
+            ))
+            {
+                intJ = 0;
+                /*UNTIL-DO*/
+                while (!(
+                    (intJ >= arr3int[intI].length) ||
+                    (arr3int[intI][intJ] == null) ||
+                                                            //The inner array is of different size than the others.
+                    (arr3int[intI][intJ].length != intLength3D)
+                ))
+                {
+                    intJ = intJ + 1;
+                }
+                boolArr3DIsStandard = intJ >= arr3int[intI].length;
+
+                intI = intI + 1;
+            }
+
+                                                            //All inner arrays were of the same size ([l,m,n])
+            boolArr3DIsStandard = intI >= arr3int.length;
+        }
+        /*END-CASE*/
+
+        return boolArr3DIsStandard;
+    }
+
+    //------------------------------------------------------------------------------------------------------------------
+    private static boolean boolArr3DIsStandard(             //Find if an arr3D of long's is standard.
+        long [][][] arr3long
+        )
+    {
+        boolean boolArr3DIsStandard = true;
+        int intLength2D;
+        int intLength3D;
+
+        /*CASE*/
+        if (
+                                                            //The array is of length 0.
+            arr3long.length == 0
+            )
+        {
+                                                            //The array is of length 0, so no element inside the array,
+                                                            //      arr[0] f.e., can be checked. Nevertheless, it will
+                                                            //      be treated as a standard array, and it will be
+                                                            //      assumed that the second and third dimensions are
+                                                            //      also of size 0. This will be a coding standard. So a
+                                                            //      3d array with its first dimension of size 0, shall
+                                                            //      have its second and third dimensions of size 0 as
+                                                            //      well ([0,0,0]).
+            boolArr3DIsStandard = true;
+        }
+        else if (
+                                                            //The 2d array is null, meaning that it's being trated as an
+                                                            //      array of arrays instead of a multidimensional arr.
+            arr3long[0] == null
+            )
+        {
+            boolArr3DIsStandard = false;
+        }
+        else if (
+                                                            //2d is of size 0.
+            arr3long[0].length == 0
+            )
+        {
+                                                            //It will be trated as standard multidimensional array. In
+                                                            //      other methods it wil be assumed that the 3d is also
+                                                            //      of size 0.
+            boolArr3DIsStandard = true;
+        }
+        else if (
+                                                            //The arrays inside the array (inner arrays) are null or
+                                                            //      have nothing.
+            arr3long[0][0] == null
+            )
+        {
+            boolArr3DIsStandard = false;
+        }
+        else
+        {
+                                                            //The length of the 2D array.
+            intLength2D = arr3long[0].length;
+                                                            //The length of the 3D array.
+            intLength3D = arr3long[0][0].length;
+            int intI = 0;
+            int intJ = 0;
+            /*UNTIL-DO*/
+            while (!(
+                                                            //It has been determined that it's not standard.
+                !boolArr3DIsStandard ||
+                (intI >= arr3long.length) ||
+                (arr3long[intI] == null) ||
+                                                            //The inner array is of different size than the others.
+                (arr3long[intI].length != intLength2D)
+            ))
+            {
+                intJ = 0;
+                /*UNTIL-DO*/
+                while (!(
+                    (intJ >= arr3long[intI].length) ||
+                    (arr3long[intI][intJ] == null) ||
+                                                            //The inner array is of different size than the others.
+                    (arr3long[intI][intJ].length != intLength3D)
+                ))
+                {
+                    intJ = intJ + 1;
+                }
+                boolArr3DIsStandard = intJ >= arr3long[intI].length;
+
+                intI = intI + 1;
+            }
+
+                                                            //All inner arrays were of the same size ([l,m,n])
+            boolArr3DIsStandard = intI >= arr3long.length;
+        }
+        /*END-CASE*/
+
+        return boolArr3DIsStandard;
+    }
+
+    //------------------------------------------------------------------------------------------------------------------
+    private static boolean boolArr3DIsStandard(             //Find if an arr3D of boolean's is standard.
+        boolean [][][] arr3bool
+        )
+    {
+        boolean boolArr3DIsStandard = true;
+        int intLength2D;
+        int intLength3D;
+
+        /*CASE*/
+        if (
+                                                            //The array is of length 0.
+            arr3bool.length == 0
+            )
+        {
+                                                            //The array is of length 0, so no element inside the array,
+                                                            //      arr[0] f.e., can be checked. Nevertheless, it will
+                                                            //      be treated as a standard array, and it will be
+                                                            //      assumed that the second and third dimensions are
+                                                            //      also of size 0. This will be a coding standard. So a
+                                                            //      3d array with its first dimension of size 0, shall
+                                                            //      have its second and third dimensions of size 0 as
+                                                            //      well ([0,0,0]).
+            boolArr3DIsStandard = true;
+        }
+        else if (
+                                                            //The 2d array is null, meaning that it's being trated as an
+                                                            //      array of arrays instead of a multidimensional arr.
+            arr3bool[0] == null
+            )
+        {
+            boolArr3DIsStandard = false;
+        }
+        else if (
+                                                            //2d is of size 0.
+            arr3bool[0].length == 0
+            )
+        {
+                                                            //It will be trated as standard multidimensional array. In
+                                                            //      other methods it wil be assumed that the 3d is also
+                                                            //      of size 0.
+            boolArr3DIsStandard = true;
+        }
+        else if (
+                                                            //The arrays inside the array (inner arrays) are null or
+                                                            //      have nothing.
+            arr3bool[0][0] == null
+            )
+        {
+            boolArr3DIsStandard = false;
+        }
+        else
+        {
+                                                            //The length of the 2D array.
+            intLength2D = arr3bool[0].length;
+                                                            //The length of the 3D array.
+            intLength3D = arr3bool[0][0].length;
+            int intI = 0;
+            int intJ = 0;
+            /*UNTIL-DO*/
+            while (!(
+                                                            //It has been determined that it's not standard.
+                !boolArr3DIsStandard ||
+                (intI >= arr3bool.length) ||
+                (arr3bool[intI] == null) ||
+                                                            //The inner array is of different size than the others.
+                (arr3bool[intI].length != intLength2D)
+            ))
+            {
+                intJ = 0;
+                /*UNTIL-DO*/
+                while (!(
+                    (intJ >= arr3bool[intI].length) ||
+                    (arr3bool[intI][intJ] == null) ||
+                                                            //The inner array is of different size than the others.
+                    (arr3bool[intI][intJ].length != intLength3D)
+                ))
+                {
+                    intJ = intJ + 1;
+                }
+                boolArr3DIsStandard = intJ >= arr3bool[intI].length;
+
+                intI = intI + 1;
+            }
+
+                                                            //All inner arrays were of the same size ([l,m,n])
+            boolArr3DIsStandard = intI >= arr3bool.length;
+        }
+        /*END-CASE*/
+
+        return boolArr3DIsStandard;
+    }
+
+    //------------------------------------------------------------------------------------------------------------------
+    private static boolean boolArr3DIsStandard(             //Find if an arr3D of char's is standard.
+        char [][][] arr3char
+        )
+    {
+        boolean boolArr3DIsStandard = true;
+        int intLength2D;
+        int intLength3D;
+
+        /*CASE*/
+        if (
+                                                            //The array is of length 0.
+            arr3char.length == 0
+            )
+        {
+                                                            //The array is of length 0, so no element inside the array,
+                                                            //      arr[0] f.e., can be checked. Nevertheless, it will
+                                                            //      be treated as a standard array, and it will be
+                                                            //      assumed that the second and third dimensions are
+                                                            //      also of size 0. This will be a coding standard. So a
+                                                            //      3d array with its first dimension of size 0, shall
+                                                            //      have its second and third dimensions of size 0 as
+                                                            //      well ([0,0,0]).
+            boolArr3DIsStandard = true;
+        }
+        else if (
+                                                            //The 2d array is null, meaning that it's being trated as an
+                                                            //      array of arrays instead of a multidimensional arr.
+            arr3char[0] == null
+            )
+        {
+            boolArr3DIsStandard = false;
+        }
+        else if (
+                                                            //2d is of size 0.
+            arr3char[0].length == 0
+            )
+        {
+                                                            //It will be trated as standard multidimensional array. In
+                                                            //      other methods it wil be assumed that the 3d is also
+                                                            //      of size 0.
+            boolArr3DIsStandard = true;
+        }
+        else if (
+                                                            //The arrays inside the array (inner arrays) are null or
+                                                            //      have nothing.
+            arr3char[0][0] == null
+            )
+        {
+            boolArr3DIsStandard = false;
+        }
+        else
+        {
+                                                            //The length of the 2D array.
+            intLength2D = arr3char[0].length;
+                                                            //The length of the 3D array.
+            intLength3D = arr3char[0][0].length;
+            int intI = 0;
+            int intJ = 0;
+            /*UNTIL-DO*/
+            while (!(
+                                                            //It has been determined that it's not standard.
+                !boolArr3DIsStandard ||
+                (intI >= arr3char.length) ||
+                (arr3char[intI] == null) ||
+                                                            //The inner array is of different size than the others.
+                (arr3char[intI].length != intLength2D)
+            ))
+            {
+                intJ = 0;
+                /*UNTIL-DO*/
+                while (!(
+                    (intJ >= arr3char[intI].length) ||
+                    (arr3char[intI][intJ] == null) ||
+                                                            //The inner array is of different size than the others.
+                    (arr3char[intI][intJ].length != intLength3D)
+                ))
+                {
+                    intJ = intJ + 1;
+                }
+                boolArr3DIsStandard = intJ >= arr3char[intI].length;
+
+                intI = intI + 1;
+            }
+
+                                                            //All inner arrays were of the same size ([l,m,n])
+            boolArr3DIsStandard = intI >= arr3char.length;
+        }
+        /*END-CASE*/
+
+        return boolArr3DIsStandard;
+    }
+
+    //------------------------------------------------------------------------------------------------------------------
+    private static boolean boolArr3DIsStandard(             //Find if an arr3D of double's is standard.
+        double [][][] arr3num
+        )
+    {
+        boolean boolArr3DIsStandard = true;
+        int intLength2D;
+        int intLength3D;
+
+        /*CASE*/
+        if (
+                                                            //The array is of length 0.
+            arr3num.length == 0
+            )
+        {
+                                                            //The array is of length 0, so no element inside the array,
+                                                            //      arr[0] f.e., can be checked. Nevertheless, it will
+                                                            //      be treated as a standard array, and it will be
+                                                            //      assumed that the second and third dimensions are
+                                                            //      also of size 0. This will be a coding standard. So a
+                                                            //      3d array with its first dimension of size 0, shall
+                                                            //      have its second and third dimensions of size 0 as
+                                                            //      well ([0,0,0]).
+            boolArr3DIsStandard = true;
+        }
+        else if (
+                                                            //The 2d array is null, meaning that it's being trated as an
+                                                            //      array of arrays instead of a multidimensional arr.
+            arr3num[0] == null
+            )
+        {
+            boolArr3DIsStandard = false;
+        }
+        else if (
+                                                            //2d is of size 0.
+            arr3num[0].length == 0
+            )
+        {
+                                                            //It will be trated as standard multidimensional array. In
+                                                            //      other methods it wil be assumed that the 3d is also
+                                                            //      of size 0.
+            boolArr3DIsStandard = true;
+        }
+        else if (
+                                                            //The arrays inside the array (inner arrays) are null or
+                                                            //      have nothing.
+            arr3num[0][0] == null
+            )
+        {
+            boolArr3DIsStandard = false;
+        }
+        else
+        {
+                                                            //The length of the 2D array.
+            intLength2D = arr3num[0].length;
+                                                            //The length of the 3D array.
+            intLength3D = arr3num[0][0].length;
+            int intI = 0;
+            int intJ = 0;
+            /*UNTIL-DO*/
+            while (!(
+                                                            //It has been determined that it's not standard.
+                !boolArr3DIsStandard ||
+                (intI >= arr3num.length) ||
+                (arr3num[intI] == null) ||
+                                                            //The inner array is of different size than the others.
+                (arr3num[intI].length != intLength2D)
+            ))
+            {
+                intJ = 0;
+                /*UNTIL-DO*/
+                while (!(
+                    (intJ >= arr3num[intI].length) ||
+                    (arr3num[intI][intJ] == null) ||
+                                                            //The inner array is of different size than the others.
+                    (arr3num[intI][intJ].length != intLength3D)
+                ))
+                {
+                    intJ = intJ + 1;
+                }
+                boolArr3DIsStandard = intJ >= arr3num[intI].length;
+
+                intI = intI + 1;
+            }
+
+                                                            //All inner arrays were of the same size ([l,m,n])
+            boolArr3DIsStandard = intI >= arr3num.length;
+        }
+        /*END-CASE*/
+
+        return boolArr3DIsStandard;
+    }
+
+    //------------------------------------------------------------------------------------------------------------------
+    private static boolean boolArr3DIsStandard(             //Find if an arr3D of Object's is standard.
+        Object [][][] arr3obj
+        )
+    {
+        boolean boolArr3DIsStandard = true;
+        int intLength2D;
+        int intLength3D;
+
+        /*CASE*/
+        if (
+                                                            //The array is of length 0.
+            arr3obj.length == 0
+            )
+        {
+                                                            //The array is of length 0, so no element inside the array,
+                                                            //      arr[0] f.e., can be checked. Nevertheless, it will
+                                                            //      be treated as a standard array, and it will be
+                                                            //      assumed that the second and third dimensions are
+                                                            //      also of size 0. This will be a coding standard. So a
+                                                            //      3d array with its first dimension of size 0, shall
+                                                            //      have its second and third dimensions of size 0 as
+                                                            //      well ([0,0,0]).
+            boolArr3DIsStandard = true;
+        }
+        else if (
+                                                            //The 2d array is null, meaning that it's being trated as an
+                                                            //      array of arrays instead of a multidimensional arr.
+            arr3obj[0] == null
+            )
+        {
+            boolArr3DIsStandard = false;
+        }
+        else if (
+                                                            //2d is of size 0.
+            arr3obj[0].length == 0
+            )
+        {
+                                                            //It will be trated as standard multidimensional array. In
+                                                            //      other methods it wil be assumed that the 3d is also
+                                                            //      of size 0.
+            boolArr3DIsStandard = true;
+        }
+        else if (
+                                                            //The arrays inside the array (inner arrays) are null or
+                                                            //      have nothing.
+            arr3obj[0][0] == null
+            )
+        {
+            boolArr3DIsStandard = false;
+        }
+        else
+        {
+                                                            //The length of the 2D array.
+            intLength2D = arr3obj[0].length;
+                                                            //The length of the 3D array.
+            intLength3D = arr3obj[0][0].length;
+            int intI = 0;
+            int intJ = 0;
+            /*UNTIL-DO*/
+            while (!(
+                                                            //It has been determined that it's not standard.
+                !boolArr3DIsStandard ||
+                (intI >= arr3obj.length) ||
+                (arr3obj[intI] == null) ||
+                                                            //The inner array is of different size than the others.
+                (arr3obj[intI].length != intLength2D)
+            ))
+            {
+                intJ = 0;
+                /*UNTIL-DO*/
+                while (!(
+                    (intJ >= arr3obj[intI].length) ||
+                    (arr3obj[intI][intJ] == null) ||
+                                                            //The inner array is of different size than the others.
+                    (arr3obj[intI][intJ].length != intLength3D)
+                ))
+                {
+                    intJ = intJ + 1;
+                }
+                boolArr3DIsStandard = intJ >= arr3obj[intI].length;
+
+                intI = intI + 1;
+            }
+
+                                                            //All inner arrays were of the same size ([l,m,n])
+            boolArr3DIsStandard = intI >= arr3obj.length;
+        }
+        /*END-CASE*/
+
+        return boolArr3DIsStandard;
+    }
+    /*END-TASK*/
+
+
+
     /*END-TASK*/
     //==================================================================================================================
 
