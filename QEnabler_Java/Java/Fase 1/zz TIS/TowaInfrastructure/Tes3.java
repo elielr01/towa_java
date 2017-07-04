@@ -1011,7 +1011,7 @@ public class Tes3
     )
     {
                                                             //To display a bclass first time requires a block
-        String strFormatSingleFull;
+        Ostring ostrFormatSingleFull = new Ostring();
         if (
                                                             //Bclass processed for first time.
             BclassBaseClassAbstract.class.isAssignableFrom(obj_I.getClass()) &&
@@ -1019,25 +1019,25 @@ public class Tes3
             )
         {
                                                             //A first time bclass should be display inside a block
-            String strNL;
-            String strLabel;
+            Ostring ostrNL = new Ostring();
+            Ostring ostrLabel = new Ostring();
                                                             //The objId will be display before bclass, is not
                                                             //      in the block headings
-            Tes3.subBlockStart(out strNL, out strLabel, out strFormatSingleFull, strText_I, "");
+            Tes3.subBlockStart(ostrNL, ostrLabel, ostrFormatSingleFull, strText_I, "");
 
-            strFormatSingleFull = strFormatSingleFull + strNL +
-                    Test.strAnalizeAndFormatCheckNulls((BclassBaseClassAbstract)obj_I, TestoptionEnum.FULL);
+            ostrFormatSingleFull.v = ostrFormatSingleFull.v + ostrNL.v +
+                    Tes3.strAnalizeAndFormatCheckNulls((BclassBaseClassAbstract)obj_I, TestoptionEnum.FULL);
 
-            Tes3.subBlockEnd(ref strNL, ref strFormatSingleFull, strLabel);
+            Tes3.subBlockEnd(ostrNL, ostrFormatSingleFull, ostrLabel.v);
         }
             else
         {
                                                             //No blocking requires, any single type
-            strFormatSingleFull = strText_I + "(" +
+            ostrFormatSingleFull.v = strText_I + "(" +
                     Tes3.strAnalizeAndFormatCheckNulls(obj_I, TestoptionEnum.FULL) +")";
         }
 
-        return strFormatSingleFull;
+        return ostrFormatSingleFull.v;
     }
     //------------------------------------------------------------------------------------------------------------------
     /*END-TASK*/
@@ -2650,8 +2650,8 @@ public class Tes3
 //            )
 //        {
 //                                                            dic, kvp, lst, queue or stack
-//            strPrefix = Tes2.arrstrGENERIC_PREFIX[
-//                Arrays.binarySearch(Tes2.arrstrGENERIC_TYPE, classObj.getSimpleName())];
+//            strPrefix = Tes3.arrstrGENERIC_PREFIX[
+//                Arrays.binarySearch(Tes3.arrstrGENERIC_TYPE, classObj.getSimpleName())];
 //
 //            if (
 //                                                            The generic arguments of the collection can be obtained.
@@ -2665,7 +2665,7 @@ public class Tes3
 //                    arrClassArgument.length > 0
 //                    )
 //                {
-//                    strPrefix = strPrefix + Tes2.strPrefix(arrClassArgument[arrClassArgument.length - 1]);
+//                    strPrefix = strPrefix + Tes3.strPrefix(arrClassArgument[arrClassArgument.length - 1]);
 //                }
 //                else
 //                {
@@ -2681,17 +2681,17 @@ public class Tes3
 //            Type typeArgument = typeObj.GetGenericArguments()[0];
 //            if (
 //                                                            //Is primitive type
-//                (Array.BinarySearch(Tes2.arrstrPRIMITIVE_TYPE, typeArgument.Name) >= 0)
+//                (Array.BinarySearch(Tes3.arrstrPRIMITIVE_TYPE, typeArgument.Name) >= 0)
 //                )
-//                Tools.subWarning(Tes2.strTo(Tes2.arrstrPRIMITIVE_TYPE, "Tes2.arrstrPRIMITIVE_TYPE") + ", " +
-//                    Tes2.strTo(typeObj, "obj_I.GetType") +
+//                Tools.subWarning(Tes3.strTo(Tes3.arrstrPRIMITIVE_TYPE, "Tes3.arrstrPRIMITIVE_TYPE") + ", " +
+//                    Tes3.strTo(typeObj, "obj_I.GetType") +
 //                    " SOMETHING IS WRONG!!! a branch in previous case is missing, you may continue");
 //            if (
 //                                                            //Is system type
-//                (Array.BinarySearch(Tes2.arrstrSYSTEM_TYPE, typeArgument.Name) >= 0)
+//                (Array.BinarySearch(Tes3.arrstrSYSTEM_TYPE, typeArgument.Name) >= 0)
 //                )
-//                Tools.subWarning(Tes2.strTo(Tes2.arrstrSYSTEM_TYPE, "Tes2.arrstrSYSTEM_TYPE") + ", " +
-//                    Tes2.strTo(typeObj, "obj_I.GetType") +
+//                Tools.subWarning(Tes3.strTo(Tes3.arrstrSYSTEM_TYPE, "Tes3.arrstrSYSTEM_TYPE") + ", " +
+//                    Tes3.strTo(typeObj, "obj_I.GetType") +
 //                    " SOMETHING IS WRONG!!! a branch in previous case is missing, you may continue");
 
             //Can note get count.
@@ -2718,17 +2718,17 @@ public class Tes3
 //            Type typeArgument = typeObj.GetGenericArguments()[0];
 //            if (
 //                                                            //Is primitive type
-//                (Array.BinarySearch(Tes2.arrstrPRIMITIVE_TYPE, typeArgument.Name) >= 0)
+//                (Array.BinarySearch(Tes3.arrstrPRIMITIVE_TYPE, typeArgument.Name) >= 0)
 //                )
-//                Tools.subWarning(Tes2.strTo(Tes2.arrstrPRIMITIVE_TYPE, "Tes2.arrstrPRIMITIVE_TYPE") + ", " +
-//                    Tes2.strTo(typeObj, "obj_I.GetType") +
+//                Tools.subWarning(Tes3.strTo(Tes3.arrstrPRIMITIVE_TYPE, "Tes3.arrstrPRIMITIVE_TYPE") + ", " +
+//                    Tes3.strTo(typeObj, "obj_I.GetType") +
 //                    " SOMETHING IS WRONG!!! a branch in previous case is missing, you may continue");
 //            if (
 //                                                            //Is system type
-//                (Array.BinarySearch(Tes2.arrstrSYSTEM_TYPE, typeArgument.Name) >= 0)
+//                (Array.BinarySearch(Tes3.arrstrSYSTEM_TYPE, typeArgument.Name) >= 0)
 //                )
-//                Tools.subWarning(Tes2.strTo(Tes2.arrstrSYSTEM_TYPE, "Tes2.arrstrSYSTEM_TYPE") + ", " +
-//                    Tes2.strTo(typeObj, "obj_I.GetType") +
+//                Tools.subWarning(Tes3.strTo(Tes3.arrstrSYSTEM_TYPE, "Tes3.arrstrSYSTEM_TYPE") + ", " +
+//                    Tes3.strTo(typeObj, "obj_I.GetType") +
 //                    " SOMETHING IS WRONG!!! a branch in previous case is missing, you may continue");
 
             //Can note get count.
@@ -2758,17 +2758,17 @@ public class Tes3
 //            Type typeArgument = typeObj.GetGenericArguments()[0];
 //            if (
 //                                                            //Is primitive type
-//                (Array.BinarySearch(Tes2.arrstrPRIMITIVE_TYPE, typeArgument.Name) >= 0)
+//                (Array.BinarySearch(Tes3.arrstrPRIMITIVE_TYPE, typeArgument.Name) >= 0)
 //                )
-//                Tools.subWarning(Tes2.strTo(Tes2.arrstrPRIMITIVE_TYPE, "Tes2.arrstrPRIMITIVE_TYPE") + ", " +
-//                    Tes2.strTo(typeObj, "obj_I.GetType") +
+//                Tools.subWarning(Tes3.strTo(Tes3.arrstrPRIMITIVE_TYPE, "Tes3.arrstrPRIMITIVE_TYPE") + ", " +
+//                    Tes3.strTo(typeObj, "obj_I.GetType") +
 //                    " SOMETHING IS WRONG!!! a branch in previous case is missing, you may continue");
 //            if (
 //                                                            //Is system type
-//                (Array.BinarySearch(Tes2.arrstrSYSTEM_TYPE, typeArgument.Name) >= 0)
+//                (Array.BinarySearch(Tes3.arrstrSYSTEM_TYPE, typeArgument.Name) >= 0)
 //                )
-//                Tools.subWarning(Tes2.strTo(Tes2.arrstrSYSTEM_TYPE, "Tes2.arrstrSYSTEM_TYPE") + ", " +
-//                    Tes2.strTo(typeObj, "obj_I.GetType") +
+//                Tools.subWarning(Tes3.strTo(Tes3.arrstrSYSTEM_TYPE, "Tes3.arrstrSYSTEM_TYPE") + ", " +
+//                    Tes3.strTo(typeObj, "obj_I.GetType") +
 //                    " SOMETHING IS WRONG!!! a branch in previous case is missing, you may continue");
 
             //Can note get count.
@@ -2799,17 +2799,17 @@ public class Tes3
 //            Type typeArgument = typeObj.GetGenericArguments()[1];
 //            if (
 //                                                            //Is primitive type
-//                (Array.BinarySearch(Tes2.arrstrPRIMITIVE_TYPE, typeArgument.Name) >= 0)
+//                (Array.BinarySearch(Tes3.arrstrPRIMITIVE_TYPE, typeArgument.Name) >= 0)
 //                )
-//                Tools.subWarning(Tes2.strTo(Tes2.arrstrPRIMITIVE_TYPE, "Tes2.arrstrPRIMITIVE_TYPE") + ", " +
-//                    Tes2.strTo(typeObj, "obj_I.GetType") +
+//                Tools.subWarning(Tes3.strTo(Tes3.arrstrPRIMITIVE_TYPE, "Tes3.arrstrPRIMITIVE_TYPE") + ", " +
+//                    Tes3.strTo(typeObj, "obj_I.GetType") +
 //                    " SOMETHING IS WRONG!!! a branch in previous case is missing, you may continue");
 //            if (
 //                                                            //Is system type
-//                (Array.BinarySearch(Tes2.arrstrSYSTEM_TYPE, typeArgument.Name) >= 0)
+//                (Array.BinarySearch(Tes3.arrstrSYSTEM_TYPE, typeArgument.Name) >= 0)
 //                )
-//                Tools.subWarning(Tes2.strTo(Tes2.arrstrSYSTEM_TYPE, "Tes2.arrstrSYSTEM_TYPE") + ", " +
-//                    Tes2.strTo(typeObj, "obj_I.GetType") +
+//                Tools.subWarning(Tes3.strTo(Tes3.arrstrSYSTEM_TYPE, "Tes3.arrstrSYSTEM_TYPE") + ", " +
+//                    Tes3.strTo(typeObj, "obj_I.GetType") +
 //                    " SOMETHING IS WRONG!!! a branch in previous case is missing, you may continue");
 
                                                             //Can not get count.
@@ -4036,6 +4036,462 @@ public class Tes3
 
         return boolArr3DIsStandard;
     }
+    /*END-TASK*/
+
+    //==================================================================================================================
+    /*TASK Test.strAnalizeAndFormat set of private methods to format a single object*/
+    //------------------------------------------------------------------------------------------------------------------
+    private static String strAnalizeAndFormatCheckNulls(
+                                                            //Produces an object in string format.
+                                                            //Before calling strAnalizeAndFormatXxxx checks for null
+
+                                                            //str, object in string format, could be null.
+
+                                                            //Object to format
+        Object obj_I,
+                                                            //SHORT or FULL
+        //TODO ESTO HAY QUE CAMBIARLO A STRTOENUM, EN VEZ DE TESTOPTIONENUM
+        TestoptionEnum strtoOption_I
+        )
+    {
+        String strAnalizeAndFormatCheckNulls;
+        if (
+            obj_I == null
+            )
+        {
+            strAnalizeAndFormatCheckNulls = "null";
+        }
+        else
+        {
+            Class classObj = obj_I.getClass();
+            /*CASE*/
+            if (
+                BboxBaseBoxingAbstract.class.isAssignableFrom(classObj)
+                )
+            {
+                strAnalizeAndFormatCheckNulls = Tes3.strAnalizeAndFormatBbox((BboxBaseBoxingAbstract)obj_I);
+            }
+            else if (
+                BclassBaseClassAbstract.class.isAssignableFrom(classObj)
+                )
+            {
+                strAnalizeAndFormatCheckNulls =
+                    Tes3.strAnalizeAndFormatBclass((BclassBaseClassAbstract)obj_I, strtoOption_I);
+            }
+            else if (
+                BtupleBaseTupleAbstract.class.isAssignableFrom(classObj)
+                )
+            {
+                strAnalizeAndFormatCheckNulls =
+                    Tes3.strAnalizeAndFormatBtuple((BtupleBaseTupleAbstract)obj_I, strtoOption_I);
+            }
+            //TODO implementar las Benum
+//            else if (
+//                BenumBaseEnumAbstract.class.isAssignableFrom(classObj)
+//                )
+//            {
+//                strAnalizeAndFormatCheckNulls =
+//                    Tes3.strAnalizeAndFormatBenum((BenumBaseEnumAbstract)obj_I);
+//            }
+            else if (
+                //TODO VER SI ESTO ESTA BIEN
+                Enum.class.isAssignableFrom(classObj)
+                )
+            {
+                strAnalizeAndFormatCheckNulls = Tes3.strAnalizeAndFormatEnum((Enum)obj_I);
+            }
+            else if (
+                Exception.class.isAssignableFrom(classObj)
+                )
+            {
+                strAnalizeAndFormatCheckNulls = Tes3.strAnalizeAndFormatSysexcep((Exception)obj_I);
+            }
+            else
+            {
+                //TODO Aqui no hay ningun casting asi que hay que checar el metodo dentro
+                strAnalizeAndFormatCheckNulls = Tes3.strAnalizeAndFormatSystemType(obj_I, strtoOption_I);
+            }
+            /*END-CASE*/
+        }
+
+        return strAnalizeAndFormatCheckNulls;
+    }
+
+    //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    private static String strAnalizeAndFormatBbox(          //Produces an object in string format (boxed primitive)
+
+                                                            //str, object in string format.
+
+                                                            //bbox to format
+        BboxBaseBoxingAbstract bbox_I
+    )
+    {
+        String strAnalizeAndFormatBbox;
+        Class classBbox = bbox_I.getClass();
+        /*CASE*/
+        if (
+            //TODO Todos los Oint, Obool, etc... se les agrego la palabra Box al final. Cambiar los nombres.
+            Oint.class.isAssignableFrom(classBbox)
+            )
+        {
+            strAnalizeAndFormatBbox = Tes3.strAnalizeAndFormatInt(((Oint)bbox_I).v);
+        }
+        else if (
+            Olong.class.isAssignableFrom(classBbox)
+            )
+        {
+            strAnalizeAndFormatBbox = Tes3.strAnalizeAndFormatLong(((Olong)bbox_I).v);
+        }
+        else if (
+            Onum.class.isAssignableFrom(classBbox)
+            )
+        {
+            strAnalizeAndFormatBbox = Tes3.strAnalizeAndFormatNum(((Onum)bbox_I).v);
+        }
+        else if (
+            Obool.class.isAssignableFrom(classBbox)
+            )
+        {
+            strAnalizeAndFormatBbox = Tes3.strAnalizeAndFormatBool(((Obool)bbox_I).v);
+        }
+        else if (
+            Ochar.class.isAssignableFrom(classBbox)
+            )
+        {
+            strAnalizeAndFormatBbox = Tes3.strAnalizeAndFormatChar(((Ochar)bbox_I).v);
+        }
+        //TODO implementar la rama de timestamp
+//        else if (
+//            Ots.class.isAssignableFrom(classBbox)
+//            )
+//        {
+//            strAnalizeAndFormatBbox = Tes3.strAnalizeAndFormatTs(((Ots)bbox_I).v);
+//        }
+        else
+        {
+            Tools.subAbort(Tes3.strTo(classBbox, "bbox_I.GetType") +
+                " SOMETHING IS WRONG!!!, method strAnalizeAndFormatXxxx to process this bbox type is missing");
+
+            strAnalizeAndFormatBbox = null;
+        }
+        /*END-CASE*/
+
+        return strAnalizeAndFormatBbox;
+    }
+    
+    //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    private static String strAnalizeAndFormatBclass(        //Analize and format bclass (or subclass of bclass).
+                                                            //A bclass object should be display only once per run.
+                                                            //str, bclass formated to display.
+
+                                                            //Bclass to be analized and format
+        BclassBaseClassAbstract bclass_I,
+                                                            //SHORT or FULL
+        TestoptionEnum testoptionOption_I
+        )
+    {
+        String strAnalizeAndFormatBclass;
+
+                                                            //Se verifica si es null o no
+        if (
+            bclass_I == null
+            )
+        {
+            if (
+                testoptionOption_I == TestoptionEnum.SHORT
+                )
+            {
+                strAnalizeAndFormatBclass = "null";
+            }
+            else
+            {
+                //TODO Falta agregar el parámetro para cuando es FULL
+                strAnalizeAndFormatBclass = "(null)";
+            }
+        }
+        else {
+
+            /*CASE*/
+            if (
+                                                            //Es un bclass DUMMY
+                bclass_I.boolIsDummy()
+                )
+            {
+                                                            //Include only objId + DUMMY
+                strAnalizeAndFormatBclass = Tes3.strGetObjId(bclass_I) + "[DUMMY]";
+            }
+            else if (
+                                                            //Was processed before
+                Tes3.lstobjPreviouslyProcessed.contains(bclass_I)
+                )
+            {
+                                                            //Include only objId
+                strAnalizeAndFormatBclass = Tes3.strGetObjId(bclass_I) + "|look object up|";
+            }
+            else
+            {
+                                                            //Register as processed
+                Tes3.lstobjPreviouslyProcessed.add(bclass_I);
+
+                if (
+                    testoptionOption_I == TestoptionEnum.SHORT
+                    )
+                {
+                    strAnalizeAndFormatBclass = bclass_I.strTo(TestoptionEnum.SHORT);
+                }
+                else
+                {
+                    strAnalizeAndFormatBclass = bclass_I.strTo();
+                }
+            }
+            /*END-CASE*/
+        }
+
+        return strAnalizeAndFormatBclass;
+    }
+    
+    //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    private static String strAnalizeAndFormatBtuple(        //Analize and format btuple (or subclass of btuple).
+                                                            //A btuple object should be display only once per run.
+                                                            //str, btuple formated to display.
+
+                                                            //Bclass to be analized and format
+        BtupleBaseTupleAbstract btuple_I,
+                                                            //SHORT or FULL
+        TestoptionEnum testoptionOption_I
+        )
+    {
+        String strAnalizeAndFormatBtuple;
+        if (
+                                                            //Was processed before
+            Tes3.lstobjPreviouslyProcessed.contains(btuple_I)
+            )
+        {
+                                                            //Include only objId
+            strAnalizeAndFormatBtuple = Tes3.strGetObjId(btuple_I) + "|look object up|";
+        }
+        else
+        {
+                                                            //Register as processed
+            Tes3.lstobjPreviouslyProcessed.add(btuple_I);
+
+            if (
+                testoptionOption_I == TestoptionEnum.SHORT
+                )
+            {
+                strAnalizeAndFormatBtuple = btuple_I.strTo(TestoptionEnum.SHORT);
+            }
+            else
+            {
+                strAnalizeAndFormatBtuple = btuple_I.strTo();
+            }
+        }
+
+        return strAnalizeAndFormatBtuple;
+    }
+    
+    //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    private static String strAnalizeAndFormatEnum(      //Analize and format enum (or subclass of enum).
+                                                        // str, enum formated to display.
+
+                                                        //Enum to be analized and format
+        Enum enum_I
+    )
+    {
+        return enum_I.name();
+    }
+    
+    //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    private static String strAnalizeAndFormatSysexcep(      //Prepare a object to display.
+                                                            //str, sysexcep_I prepared to display.
+
+                                                            //Object to be analized and format
+        Exception sysexcep_I
+    )
+    {
+        return sysexcep_I.toString();
+    }
+    
+    //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+    private static String strAnalizeAndFormatSystemType(    //Produces an object in string format (system type)
+
+                                                            //str, object in string format.
+
+                                                            //Object to format
+        Object obj_I,
+                                                            //SHORT or FULL
+        TestoptionEnum testoptionOption_I
+        )
+    {
+        String strAnalizeAndFormatSystemType;
+        /*CASE*/
+        if (
+            obj_I instanceof String
+            )
+        {
+            strAnalizeAndFormatSystemType = Tes3.strAnalizeAndFormatStr((String)obj_I);
+        }
+        //TODO FALTA IMPLEMENTAR TODO ESTE ROLLO
+//        else if (
+//            obj_I instanceof Type
+//            )
+//        {
+//            strAnalizeAndFormatSystemType = Tes3.strAnalizeAndFormatType((Type)obj_I, testoptionOption_I);
+//        }
+//        else if (
+//            obj_I instanceof DirectoryInfo
+//            )
+//        {
+//            strAnalizeAndFormatSystemType = Tes3.strAnalizeAndFormatSysdir((DirectoryInfo)obj_I,
+//                testoptionOption_I);
+//        }
+//        else if (
+//            obj_I instanceof FileInfo
+//            )
+//        {
+//            strAnalizeAndFormatSystemType = Tes3.strAnalizeAndFormatSysfile((FileInfo)obj_I, testoptionOption_I);
+//        }
+//        else if (
+//            obj_I instanceof StreamReader
+//            )
+//        {
+//            strAnalizeAndFormatSystemType = Tes3.strAnalizeAndFormatSyssr((StreamReader)obj_I, testoptionOption_I);
+//        }
+//        else if (
+//            obj_I instanceof StreamWriter
+//            )
+//        {
+//            strAnalizeAndFormatSystemType = Tes3.strAnalizeAndFormatSyssw((StreamWriter)obj_I, testoptionOption_I);
+//        }
+        else
+        {
+            if (
+                true
+                )
+//                Tools.subAbort(Tes3.strTo(obj_I.GetType(), "obj_I.GetType") + " SOMETHING IS WRONG!!!," +
+//                    " method strAnalizeAndFormatXxxx to process this system type is missing");
+
+            strAnalizeAndFormatSystemType = null;
+        }
+        /*END-CASE*/
+
+        return strAnalizeAndFormatSystemType;
+    }
+    
+    //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+    private static String strAnalizeAndFormatStr(           //Prepara un String para su despliege con información de
+                                                            //      caracteres que no son del KEYBOARD.
+                                                            //Ejemplos:
+                                                            //1. "Esto es lo que se analizo"<25>.
+                                                            //2. "©XYX"<4>{ <0, '©', 0x00A9> }.
+                                                            //3. "^XYX"<4>{ <0, '^', 0x0001> }.
+                                                            //4. "^XYX"<4>{ <0, '^', 0x0009, \t, Horizontal Tab> }.
+                                                            //1) Todo es del KEYBOARD, solo se añaden las comillas y su
+                                                            //      longitud.
+                                                            //2) El primer caracter © no aparece en el KEYBOARD, incluyo
+                                                            //      su hexadecimal.
+                                                            //3) El primer caracter es NONVISIBLE_WITHOUT_DESCRIPTION,
+                                                            //      se sustituye por _ (el caracter en
+                                                            //      charSUBSTITUTE_NONVISIBLE) e incluyo su hexadecimal.
+                                                            //4) El primer caracter es un Horizonal Tab, no es
+                                                            //      visible, se sustituye por _ (el caracter en
+                                                            //      charSUBSTITUTE_NONVISIBLE), incluyo su hexadecimal y
+                                                            //      su descripción.
+                                                            //Puede haber más de un caracter que no es del KEYBOARD, se
+                                                            //      añade "{ <.....>, <.....>, ..., <......> }".
+                                                            //Si no hay ningún caracter que no es del KEYBOARD, no se
+                                                            //      añade nada en esta parte, esto es no se añade "{ }",
+                                                            //      esto fue lo que sucedió en el ejemplo 1.
+                                                            //str, String para despligue con diagnostico de caracteres
+                                                            //      que no están en el KEYBOARD.
+    
+                                                            //String a analizar.
+        String str_I
+        )
+    {
+                                                            //Para formar lo que va a regresar.
+        String strAnalizeAndFormatStr;
+        if (
+                                                            //No hay String.
+            str_I == null
+            )
+        {
+            strAnalizeAndFormatStr = "null";
+        }
+        else
+        {
+                                                            //Paso a arrchar para poder modificarlo.
+            char[] arrcharToAnalize = str_I.toCharArray();
+
+                                                            //Para conjunto de información de diagnóstico.
+            LinkedList<String> lststrDiagnosticInfo = new LinkedList<String>();
+
+                                                            //Reviso todos los caracteres.
+            for (int intI = 0; intI < arrcharToAnalize.length; intI = intI + 1)
+            {
+                                                            //Paso un caracter a formato desplegable, el formato será:
+                                                            //'c', KEYBOARD.
+                                                            //'c'<0x1234>, VISIBLE_NONKEYBOARD.
+                                                            //'^'<0x1234>, NONVISIBLE_WITHOUT_DESCRIPTION.
+                                                            //'^'<0x1234, descripción>, NONVISIBLE_WITH_DESCRIPTION.
+                String strCharAnalized = Tes3.strAnalizeAndFormatChar(arrcharToAnalize[intI]);
+
+                                                            //Si tiene información de diagnóstico la proceso.
+                if (
+                                                            //Si tiene información de diagnóstico.
+                    strCharAnalized.length() > 3
+                    )
+                {
+                                                            //Cambio caracter, la pos. 1 tiene el caracter revisado.
+                    arrcharToAnalize[intI] = strCharAnalized.charAt(1);
+
+                                                            //Debo formar un String:
+                                                            //<n, 'c', 0x1234>, VISIBLE_NONKEYBOARD.
+                                                            //<n, '^', 0x1234>, NONVISIBLE_WITHOUT_DESCRIPTION.
+                                                            //<n, '^', 0x1234, descripción>,
+                                                            //      NONVISIBLE_WITH_DESCRIPTION.
+                    String strDiagnosticInfo = "<" + intI + ", " + strCharAnalized.substring(0, 3) + ", " +
+                        strCharAnalized.substring(4);
+
+                                                            //Añade info a la lista.
+                    lststrDiagnosticInfo.add(strDiagnosticInfo);
+                }
+            }
+
+                                                            //Forma la longitud del String, solo de desea mostrar cuando
+                                                            //      excede intLONG_STRING.
+            String strLongString;
+            if (
+                str_I.length() > Tes3.intLONG_STRING
+                )
+            {
+                strLongString = "<" + str_I.length() + ">";
+            }
+            else
+            {
+                strLongString = "";
+            }
+
+                                                            //Forma el String a desplegar.
+            if (
+                                                            //No tiene ningún caracter con información de diagnóstico.
+                lststrDiagnosticInfo.size() == 0
+                )
+            {
+                                                            //Formatea cuando NO tiene información de diagnóstico.
+                strAnalizeAndFormatStr = "\"" + str_I + "\"" + strLongString;
+            }
+            else
+            {
+                                                            //Formatea cuando SI tiene información de diagnóstico.
+                strAnalizeAndFormatStr = "\"" + new String(arrcharToAnalize) + "\"" + "<" + arrcharToAnalize.length +
+                    ">" + "{ " + String.join(", ", lststrDiagnosticInfo.toArray(new String[0])) + " }";
+            }
+        }
+
+        return strAnalizeAndFormatStr;
+    }
+
     /*END-TASK*/
 
 
