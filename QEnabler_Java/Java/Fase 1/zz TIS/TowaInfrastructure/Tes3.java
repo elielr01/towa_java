@@ -858,64 +858,68 @@ public class Tes3
                     intRank == 1
                     )
                 {
+                    //TODO Cambiar el primer argumento a objMain cuando sea posible
                                                             //Is arrobj[], call with 3 paramenters
                     strToSupportAnyType = Tes3.strFormatArrOrOneArgumentGeneric(
-                            (Object[])objMain, testoptionOption_I, strText_I, obj_I);
+                            (Object[])obj_I, testoptionOption_I, strText_I, obj_I);
                 }
-                else if (
-                    intRank == 2
-                    )
-                {
-                                                            //Is arrobj[,]
-                    strToSupportAnyType = Tes3.strFormatArr2Main((Object[,])objMain,
-                        testoptionOption_I, strText_I, obj_I);
-                }
-                else
-                {
-                                                            //Is arrobj[, ,]
-                    strToSupportAnyType = Tes3.strFormatArr3Main((Object[, ,])objMain,
-                        testoptionOption_I, strText_I, obj_I);
-                }
-                /*END-CASE*/
+                //TODO implementar arreglos bi y tridimensionales
+//                else if (
+//                    intRank == 2
+//                    )
+//                {
+//                                                            //Is arrobj[,]
+//                    strToSupportAnyType = Tes3.strFormatArr2Main((Object[,])objMain,
+//                        testoptionOption_I, strText_I, obj_I);
+//                }
+//                else
+//                {
+//                                                            //Is arrobj[, ,]
+//                    strToSupportAnyType = Tes3.strFormatArr3Main((Object[, ,])objMain,
+//                        testoptionOption_I, strText_I, obj_I);
+//                }
+//                /*END-CASE*/
             }
             else if (
                 Tools.boolIsGenericType(classObj)
                 )
             {
-                                                            //Is 1 or 2 arguments.
-                                                            //All contents are boxed primitives, simple and
-                                                            //      system types
-
-                if (
-                                                            //Is List<Object>, ...
-                    java.util.List.class.isAssignableFrom(classObj)
-                    )
-                {
-                                                            //lstobj, ... were converted to arrobj
-                    strToSupportAnyType = Tes3.strFormatArrOrOneArgumentGeneric(
-                            (Object[])objMain, testoptionOption_I, strText_I, obj_I);
-                }
-                else
-                {
-                                                            //Is Dictionary<String, Object> or
-                                                            //      KeyValuePair<String,_Object>
-
-                    if (
-                        java.util.Dictionary.class.isAssignableFrom(classObj)
-                        )
-                    {
-                                                            //dicobj was converted to arrstr and arrobj
-                        strToSupportAnyType = Tes3.strFormatDicMain(
-                                (Object[])objMain, (String[])objKey, testoptionOption_I, strText_I,
-                                obj_I);
-                    }
-                    else
-                    {
-                                                            //kvpobj was converted to str and obj
-                        strToSupportAnyType = Tes3.strFormatKvpMain(objMain, (String)objKey, testoptionOption_I,
-                                strText_I, obj_I);
-                    }
-                }
+                //TODO implementar la rama de genericos
+                strToSupportAnyType = "GENERIC BRANCH";
+//                                                            //Is 1 or 2 arguments.
+//                                                            //All contents are boxed primitives, simple and
+//                                                            //      system types
+//
+//                if (
+//                                                            //Is List<Object>, ...
+//                    java.util.List.class.isAssignableFrom(classObj)
+//                    )
+//                {
+//                                                            //lstobj, ... were converted to arrobj
+//                    strToSupportAnyType = Tes3.strFormatArrOrOneArgumentGeneric(
+//                            (Object[])objMain, testoptionOption_I, strText_I, obj_I);
+//                }
+//                else
+//                {
+//                                                            //Is Dictionary<String, Object> or
+//                                                            //      KeyValuePair<String,_Object>
+//
+//                    if (
+//                        java.util.Dictionary.class.isAssignableFrom(classObj)
+//                        )
+//                    {
+//                                                            //dicobj was converted to arrstr and arrobj
+//                        strToSupportAnyType = Tes3.strFormatDicMain(
+//                                (Object[])objMain, (String[])objKey, testoptionOption_I, strText_I,
+//                                obj_I);
+//                    }
+//                    else
+//                    {
+//                                                            //kvpobj was converted to str and obj
+//                        strToSupportAnyType = Tes3.strFormatKvpMain(objMain, (String)objKey, testoptionOption_I,
+//                                strText_I, obj_I);
+//                    }
+//                }
             }
             else
             {
@@ -1310,7 +1314,7 @@ public class Tes3
     //==================================================================================================================
 
     //==================================================================================================================
-    /*TASK Test.ObjId set of methods to compute object id*/
+    /*TASK Tes3.ObjId set of methods to compute object id*/
 
                                                             //Implementación de apoyos apagar y pender la inclución del
                                                             //      HashCode en los ObjId (se substituye por ?).
@@ -1412,7 +1416,7 @@ public class Tes3
     }
     //------------------------------------------------------------------------------------------------------------------
     /*SHARE METHODS*/
-    /*TASK Test.BoolIsStandard*/
+    /*TASK Tes3.BoolIsStandard*/
     //------------------------------------------------------------------------------------------------------------------
     private static boolean boolIsStandard(                  //Evaluate if object has a standard type.
 
@@ -1588,7 +1592,7 @@ public class Tes3
         if (
             boolAbort_I && !boolIsStandardSimpleOrSystem
             )
-            Tools.subAbort(Tes3.strTo(Tes3.arrstrSYSTEM_TYPE, "Test.arrstrSYSTEM_TYPE") + ", " +
+            Tools.subAbort(Tes3.strTo(Tes3.arrstrSYSTEM_TYPE, "Tes3.arrstrSYSTEM_TYPE") + ", " +
                 Tes3.strTo(class_I, "type_I") + " is not an standard system type");
 
         return boolIsStandardSimpleOrSystem;
@@ -2384,7 +2388,7 @@ public class Tes3
                                                             //instanceof primitive type
                 (Arrays.binarySearch(Tes3.arrstrPRIMITIVE_TYPE, typeElement.getSimpleName()) >= 0)
                 )
-                Tools.subAbort(Tes3.strTo(Tes3.arrstrPRIMITIVE_TYPE, "Test.arrstrPRIMITIVE_TYPE") + ", " +
+                Tools.subAbort(Tes3.strTo(Tes3.arrstrPRIMITIVE_TYPE, "Tes3.arrstrPRIMITIVE_TYPE") + ", " +
                     Tes3.strTo(typeObj, "obj_I.GetType") +
                     " SOMETHING instanceof WRONG!!! a branch in previous case instanceof missing");
 
@@ -2594,7 +2598,7 @@ public class Tes3
                 //instanceof primitive type
                     (Arrays.binarySearch(Tes3.arrstrPRIMITIVE_TYPE, typeElement.getSimpleName()) >= 0)
                     )
-                Tools.subAbort(Tes3.strTo(Tes3.arrstrPRIMITIVE_TYPE, "Test.arrstrPRIMITIVE_TYPE") + ", " +
+                Tools.subAbort(Tes3.strTo(Tes3.arrstrPRIMITIVE_TYPE, "Tes3.arrstrPRIMITIVE_TYPE") + ", " +
                         Tes3.strTo(typeObj, "obj_I.GetType") +
                         " SOMETHING instanceof WRONG!!! a branch in previous case instanceof missing");
 
@@ -4039,7 +4043,7 @@ public class Tes3
     /*END-TASK*/
 
     //==================================================================================================================
-    /*TASK Test.strAnalizeAndFormat set of private methods to format a single object*/
+    /*TASK Tes3.strAnalizeAndFormat set of private methods to format a single object*/
     //------------------------------------------------------------------------------------------------------------------
     private static String strAnalizeAndFormatCheckNulls(
                                                             //Produces an object in string format.
@@ -4491,10 +4495,217 @@ public class Tes3
 
         return strAnalizeAndFormatStr;
     }
-
     /*END-TASK*/
 
+    /*TASK Tes3.strTo Set of Methods for Arrays*/
+    //------------------------------------------------------------------------------------------------------------------
+    //--------------------------------------------------------------------------------------------------------------
+    private static String strFormatArrOrOneArgumentGeneric(
+                                                            //Format for display
+                                                            //An arr or One Argument Generic object should be display
+                                                            //      only once per run.
 
+                                                            //str, formated info
+
+                                                            //arr to format
+        Object[] arrobj_I,
+                                                            //SHORT or FULL display
+        TestoptionEnum strtoOption_I,
+                                                            //Variable name of arr or one argument generic object
+        String strText_I,
+                                                            //this is needed to get objId.
+        Object objOriginal_I
+        )
+    {
+                                                            //Compute objId
+        String strObjId = Tes3.strGetObjId(objOriginal_I);
+        if (
+            Tools.boolIsGenericType(objOriginal_I.getClass())
+            )
+        {
+                                                            //Get size from arrobj
+            strObjId = strObjId.replace("[?]", "[" + arrobj_I.length + "]");
+        }
+
+        String strFormatArrOrOneArgumentGeneric;
+        if (
+            strtoOption_I == TestoptionEnum.SHORT
+            )
+        {
+            strFormatArrOrOneArgumentGeneric = strObjId;
+        }
+        else
+        {
+                                                            //An Arr or One Argument Generic object should be display
+                                                            //      only once per run.
+            if (
+                Tes3.lstobjPreviouslyProcessed.contains(objOriginal_I)
+                )
+            {
+                strFormatArrOrOneArgumentGeneric = strText_I + "(" + strObjId + "|look object up|" + ")";
+            }
+            else
+            {
+                                                            //Register arr or one argument generic as processed
+                Tes3.lstobjPreviouslyProcessed.add(objOriginal_I);
+
+                strFormatArrOrOneArgumentGeneric = Tes3.strFormatArr(arrobj_I, strText_I, strObjId);
+            }
+        }
+
+        return strFormatArrOrOneArgumentGeneric;
+    }
+
+    //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    private static String strFormatArr(                     //Format for display, it could be:
+                                                            //Set of Lines(Items) or One Line(Row).
+
+                                                            //str, formated info.
+
+                                                            //Read strFormatArrOrOneArgumentGeneric method for
+                                                            //      paramenters description
+        Object[] arrobj_I,
+        String strText_I,
+        String strObjId_I
+    )
+    {
+                                                            //Find if Set of Lines(Items) format is required.
+                                                            //Need to look for long item
+
+                                                            //Set of lines is always required for bclass[] and btuple[].
+                                                            //(if not, it won't work properlly).
+
+        boolean boolSetOfLinesItems;
+        if (
+            BclassBaseClassAbstract[].class.isAssignableFrom(arrobj_I.getClass()) ||
+            BtupleBaseTupleAbstract[].class.isAssignableFrom(arrobj_I.getClass())
+            )
+        {
+            boolSetOfLinesItems = true;
+        }
+        else
+        {
+            boolSetOfLinesItems = false;
+            int intI = 0;
+            /*UNTIL-DO*/
+            while (!(
+                boolSetOfLinesItems ||
+                (intI >= arrobj_I.length)
+                ))
+            {
+                String strItem = Tes3.strAnalizeAndFormatCheckNulls(arrobj_I[intI], TestoptionEnum.FULL);
+                boolSetOfLinesItems = strItem.length() > Tes3.intLONG_ITEM_ROW_MATRIX;
+
+                intI = intI + 1;
+            }
+        }
+
+        Ostring ostrFormatArr = new Ostring();
+        if (
+            boolSetOfLinesItems
+            )
+        {
+            Ostring ostrNL = new Ostring();
+            Ostring ostrLabel = new Ostring();
+            Tes3.subBlockStart(ostrNL, ostrLabel, ostrFormatArr, strText_I, strObjId_I);
+
+            ostrFormatArr.v = ostrFormatArr.v + Tes3.strListItems(arrobj_I,ostrNL.v);
+
+            Tes3.subBlockEnd(ostrNL, ostrFormatArr, ostrLabel.v);
+        }
+        else
+        {
+            ostrFormatArr.v = strText_I + "(" + strObjId_I + Tes3.strLineRow(arrobj_I) + ")";
+        }
+
+        return ostrFormatArr.v;
+    }
+
+    //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    private static String strListItems(                     //Format an array to a Set of Lines(Items) inside a block.
+                                                            //Example:
+                                                            //[
+                                                            //{
+                                                            //[0] item
+                                                            //...
+                                                            //[x] item
+                                                            //}
+                                                            //]
+
+                                                            //str, set in block format
+
+        Object[] arrobj_I,
+        String strNL_I
+    )
+    {
+                                                            //Chars required for longest index: "[x]"
+        int intCharsInLongestIndex = ("[" + (arrobj_I.length - 1) + "]").length();
+
+                                                            //Produces a Set of Lines(Items) ready to display.
+        String[] arrstrIndexAndItem = new String[arrobj_I.length];
+        for (int intI = 0; intI < arrobj_I.length; intI = intI + 1)
+        {
+            String strItem = Tes3.strAnalizeAndFormatCheckNulls(arrobj_I[intI], TestoptionEnum.FULL);
+
+                                                            //Format: NL [i]_ item
+            arrstrIndexAndItem[intI] =
+                strNL_I + Tools.padRight("[" + intI + "]", intCharsInLongestIndex) + " " + strItem;
+        }
+
+
+        return strNL_I + "{" + String.join("", arrstrIndexAndItem) + strNL_I + "}";
+    }
+
+    //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    private static String strLineRow(                       //Produces:
+                                                            //{ item, ..., item }.
+
+                                                            //str, arr in one line format.
+        Object[] arrobj_I
+    )
+    {
+                                                            //Convert arrobj to arrstr
+        String[] arrstrItem = new String[arrobj_I.length];
+        for (int intI = 0; intI < arrobj_I.length; intI = intI + 1)
+        {
+            arrstrItem[intI] = Tes3.strAnalizeAndFormatCheckNulls(arrobj_I[intI], TestoptionEnum.FULL);
+        }
+
+                                                            //Format: { item, item, ..., item }
+        return Tes3.strVectorFromSet(arrstrItem);
+    }
+
+    //--------------------------------------------------------------------------------------------------------------
+    private static String strVectorFromSet(                 //Produces:
+                                                            //{ stuff, ..., stuff }.
+                                                            //Posibilities:
+                                                            //Put a set of strItem in a vector (strRow).
+                                                            //Put a set of strRow in a vector (strMatrix).
+                                                            //Put a set of strMatrix in a vector (strCube).
+
+                                                            //str, vector format.
+
+                                                            //Stuff to be included in strVector.
+        String[] arrstrStuff_I
+    )
+    {
+        String strRowFormatBeforeAddingBrackets;
+        if (
+            arrstrStuff_I.length == 0
+            )
+        {
+            strRowFormatBeforeAddingBrackets = " ";
+        }
+        else
+        {
+            strRowFormatBeforeAddingBrackets = " " + String.join(", ", arrstrStuff_I) + " ";
+        }
+
+        return "{" + strRowFormatBeforeAddingBrackets + "}";
+    }
+
+    //------------------------------------------------------------------------------------------------------------------
+    /*END-TASK*/
 
     /*END-TASK*/
     //==================================================================================================================
