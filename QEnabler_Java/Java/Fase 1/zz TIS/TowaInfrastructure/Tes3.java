@@ -879,28 +879,31 @@ public class Tes3
 //                        testoptionOption_I, strText_I, obj_I);
 //                }
 //                /*END-CASE*/
+                else {
+                    strToSupportAnyType = "Bidimensional or Tridimensional Array";
+                }
             }
             else if (
                 Tools.boolIsGenericType(classObj)
                 )
             {
-                //TODO implementar la rama de genericos
-                strToSupportAnyType = "GENERIC BRANCH";
-//                                                            //Is 1 or 2 arguments.
-//                                                            //All contents are boxed primitives, simple and
-//                                                            //      system types
-//
-//                if (
-//                                                            //Is List<Object>, ...
-//                    java.util.List.class.isAssignableFrom(classObj)
-//                    )
-//                {
-//                                                            //lstobj, ... were converted to arrobj
-//                    strToSupportAnyType = Tes3.strFormatArrOrOneArgumentGeneric(
-//                            (Object[])objMain, testoptionOption_I, strText_I, obj_I);
-//                }
-//                else
-//                {
+                                                            //Is 1 or 2 arguments.
+                                                            //All contents are boxed primitives, simple and
+                                                            //      system types
+
+                if (
+                                                            //Is List<Object>, ...
+                    java.util.List.class.isAssignableFrom(classObj)
+                    )
+                {
+                    //TODO implementar el objMain en lugar de obj_I
+                                                            //lstobj, ... were converted to arrobj
+                    strToSupportAnyType = Tes3.strFormatArrOrOneArgumentGeneric(
+                            (Object[])obj_I, testoptionOption_I, strText_I, obj_I);
+                }
+                else
+                {
+                    //TODO implementar Dic y KVP
 //                                                            //Is Dictionary<String, Object> or
 //                                                            //      KeyValuePair<String,_Object>
 //
@@ -919,7 +922,8 @@ public class Tes3
 //                        strToSupportAnyType = Tes3.strFormatKvpMain(objMain, (String)objKey, testoptionOption_I,
 //                                strText_I, obj_I);
 //                    }
-//                }
+                    strToSupportAnyType = "Dictionary or KeyValue Pair";
+                }
             }
             else
             {
