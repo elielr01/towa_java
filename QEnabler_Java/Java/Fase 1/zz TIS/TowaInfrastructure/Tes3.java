@@ -4711,6 +4711,13 @@ public class Tes3
     //------------------------------------------------------------------------------------------------------------------
     /*END-TASK*/
 
+//TODO cosas que se tienen que reacomodar y estandarizar
+public static void subInitializeLstobjPreviouslyProcessed{
+    Tes3.lstobjPreviouslyProcessed = new LinkedList<Object>();
+}
+
+
+
     /*END-TASK*/
     //==================================================================================================================
 
