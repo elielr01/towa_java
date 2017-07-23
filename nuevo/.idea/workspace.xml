@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="b377ea36-bc95-4088-ad89-db85629359d0" name="Default" comment="Se cambió el nombre del proyecto.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoftwareAutomation/Tech/T3dinstDefinitionT3instTuple.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoftwareAutomation/Cod/T3codToSortTuple.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoftwareAutomation/Tech/T2dtechDefinitionT4techTuple.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoftwareAutomation/Tech/T3dfextDefinitionT3fextTuple.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SoftwareAutomationObjectOriented/Cod/ComooObjectOriented.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SoftwareAutomation/Cod/ParstStructured.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SoftwareAutomation/Cod/ComtypeEnum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SoftwareAutomationCobol/Cod/ComcbCobol.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SoftwareAutomation/Cod/ParParagraphAbstract.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SoftwareAutomation/Cod/ComCommentsAbstract.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SoftwareAutomation/Cod/ParemEmpty.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SoftwareAutomation/Cod/ParunUnstructured.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SoftwareAutomation/Tech/T3instInfoTuple.java" afterPath="$PROJECT_DIR$/SoftwareAutomation/Tech/T3instInfoTuple.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TowaInfraestructure/Ti/T3fakecharFakeCharacterTuple.java" afterPath="$PROJECT_DIR$/TowaInfraestructure/Ti/T3fakecharTuple.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TowaInfraestructure/Ti/SyspathPath.java" afterPath="$PROJECT_DIR$/TowaInfraestructure/Ti/SyspathPath.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TowaInfraestructure/Ti/T2uccCategoryAndCharsTuple.java" afterPath="$PROJECT_DIR$/TowaInfraestructure/Ti/T2uccCategoryAndCharsTuple.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TowaInfraestructure/Ti/BtupleBaseTupleAbstract.java" afterPath="$PROJECT_DIR$/TowaInfraestructure/Ti/BtupleBaseTupleAbstract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SoftwareAutomation/Tech/T3fextInfoTuple.java" afterPath="$PROJECT_DIR$/SoftwareAutomation/Tech/T3fextInfoTuple.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SoftwareAutomation/Cod/CodtypeEnum.java" afterPath="$PROJECT_DIR$/SoftwareAutomation/Cod/CodtypeEnum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SoftwareAutomation/Tech/T4techInfoTuple.java" afterPath="$PROJECT_DIR$/SoftwareAutomation/Tech/T4techInfoTuple.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TowaInfraestructure/Ti/Tes3.java" afterPath="$PROJECT_DIR$/TowaInfraestructure/Ti/Tes3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SoftwareAutomationObjectOriented/Cod/CodooObjectOriented.java" afterPath="$PROJECT_DIR$/SoftwareAutomationObjectOriented/Cod/CodooObjectOriented.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TowaInfraestructure/Ti/Sys.java" afterPath="$PROJECT_DIR$/TowaInfraestructure/Ti/Sys.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SoftwareAutomation/Tech/TechinstInstanceEnum.java" afterPath="$PROJECT_DIR$/SoftwareAutomation/Tech/TechinstInstanceEnum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TowaInfraestructure/Ti/TestoptionEnum.java" afterPath="$PROJECT_DIR$/TowaInfraestructure/Ti/StrtoEnum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SoftwareAutomation/Tech/TechinstEnum.java" afterPath="$PROJECT_DIR$/SoftwareAutomation/Tech/TechinstEnum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TowaInfraestructure/Ti/UccUnicodeCategoryEnum.java" afterPath="$PROJECT_DIR$/TowaInfraestructure/Ti/UccUnicodeCategoryEnum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TowaInfraestructure/Ti/Tes2.java" afterPath="$PROJECT_DIR$/TowaInfraestructure/Ti/Tes2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SoftwareAutomation/Tech/TechtechEnum.java" afterPath="$PROJECT_DIR$/SoftwareAutomation/Tech/TechtechEnum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SoftwareAutomation/Tech/BenumBaseEnumAbstract.java" afterPath="$PROJECT_DIR$/TowaInfraestructure/Ti/BenumBaseEnumAbstract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TowaStandardSupport/Tss/Std.java" afterPath="$PROJECT_DIR$/TowaStandardSupport/Tss/Std.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TowaInfraestructure/Ti/Test.java" afterPath="$PROJECT_DIR$/TowaInfraestructure/Ti/Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SoftwareAutomation/Cod/T2alignmentRequiresAlignmentTuple.java" afterPath="$PROJECT_DIR$/SoftwareAutomation/Cod/T2alignmentRequiresAlignmentTuple.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TowaInfraestructure/Ti/T2charDescriptionTuple.java" afterPath="$PROJECT_DIR$/TowaInfraestructure/Ti/T2charDescriptionTuple.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SoftwareAutomationZTest/Tsaz/TestCod.java" afterPath="$PROJECT_DIR$/SoftwareAutomationZTest/Tsaz/TestCod.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SoftwareAutomation/Cod/CodCodeAbstract.java" afterPath="$PROJECT_DIR$/SoftwareAutomation/Cod/CodCodeAbstract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TowaInfraestructure/Ti/BboxBaseBoxingAbstract.java" afterPath="$PROJECT_DIR$/TowaInfraestructure/Ti/BboxBaseBoxingAbstract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SoftwareAutomation/Tech/Tech.java" afterPath="$PROJECT_DIR$/SoftwareAutomation/Tech/Tech.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TowaInfraestructure/Ti/BclassBaseClassAbstract.java" afterPath="$PROJECT_DIR$/TowaInfraestructure/Ti/BclassBaseClassAbstract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TowaInfraestructure/Ti/Tools.java" afterPath="$PROJECT_DIR$/TowaInfraestructure/Ti/Tools.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SoftwareAutomationZTest/Tsaz/frmPrueba.java" afterPath="$PROJECT_DIR$/SoftwareAutomationZTest/Tsaz/frmPrueba.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SoftwareAutomationCobol/Cod/CodcbCobol.java" afterPath="$PROJECT_DIR$/SoftwareAutomationCobol/Cod/CodcbCobol.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TestCod.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SoftwareAutomationZTest/Tsaz/TestCod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="37" column="35" lean-forward="false" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tools.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TowaInfraestructure/Ti/Tools.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120581">
+              <caret line="7096" column="0" lean-forward="false" selection-start-line="7096" selection-start-column="0" selection-end-line="7096" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tes2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TowaInfraestructure/Ti/Tes2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36448">
+              <caret line="2151" column="9" lean-forward="false" selection-start-line="2151" selection-start-column="9" selection-end-line="2151" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tes3.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TowaInfraestructure/Ti/Tes3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="5408" column="12" lean-forward="false" selection-start-line="5408" selection-start-column="12" selection-end-line="5408" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>intrace</find>
+      <find>boolistestaborton</find>
+      <find>procesa cuando no es</find>
+      <find>boolIsNonVisibleWithoutDescription</find>
+      <find>b</find>
+      <find>testchartypeKeyboardOrEtc</find>
+      <find>tes2</find>
+      <find>Tes3</find>
+      <find>stranalizeandformatsystemty</find>
+      <find>subWr</find>
+      <find>keyval</find>
+      <find>subWritesumm</find>
+      <find>prepara las con</find>
+      <find>subPrepareConstantsForStrTo</find>
+      <find>subprepareconstantsfor</find>
+      <find>subprepareconstantsforstr</find>
+      <find>static cons</find>
+      <find>static</find>
+      <find>kvp</find>
+      <find>Tes2</find>
+      <find>subPrepareConstantsSubTrace</find>
+      <find>subprepareconsta</find>
+      <find>subtrace</find>
+      <find>Test</find>
+      <find>strtosuppor</find>
+      <find>continu</find>
+      <find>strToSupportAnyType</find>
+      <find>intA</find>
+      <find>strToSu</find>
+      <find>Arrays</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>arr2bool</replace>
+      <replace>arr2char</replace>
+      <replace>arr2num</replace>
+      <replace>arr2Object</replace>
+      <replace>arr3obj</replace>
+      <replace>arrlongSecond</replace>
+      <replace>arrnumSecond</replace>
+      <replace>arrcharFirst</replace>
+      <replace>arrcharSecond</replace>
+      <replace>arrboolSecond</replace>
+      <replace>Tes2.strTo</replace>
+      <replace>Tools.subAbort</replace>
+      <replace>Tes2.subWarning</replace>
+      <replace>super.subResetOneClass</replace>
+      <replace>ostrLineToReview_IO.v</replace>
+      <replace>Sys.subWriteLine</replace>
+      <replace>Arrays.binarySearch</replace>
+      <replace>\u</replace>
+      <replace>Strto</replace>
+      <replace>Tes</replace>
+      <replace>Tes2.subAbort</replace>
+      <replace>Tes3.subAbort</replace>
+      <replace>Tes2</replace>
+      <replace>Tes3</replace>
+    </replaceStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TowaInfraestructure/Ti/Ochar.java" />
+        <option value="$PROJECT_DIR$/TowaInfraestructure/Ti/Oobject.java" />
+        <option value="$PROJECT_DIR$/TowaInfraestructure/Ti/Onum.java" />
+        <option value="$PROJECT_DIR$/TowaInfraestructure/Ti/Ostring.java" />
+        <option value="$PROJECT_DIR$/TowaInfraestructure/Ti/SysexcepuserUserAbort.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/SoftwareAutomationObjectOriented/Cod/ComooObjectOriented.java" />
+        <option value="$PROJECT_DIR$/SoftwareAutomation/Cod/ComCommentsAbstract.java" />
+        <option value="$PROJECT_DIR$/SoftwareAutomationCobol/Cod/ComcbCobol.java" />
+        <option value="$PROJECT_DIR$/SoftwareAutomation/Cod/ParemEmpty.java" />
+        <option value="$PROJECT_DIR$/SoftwareAutomation/Cod/ParParagraphAbstract.java" />
+        <option value="$PROJECT_DIR$/SoftwareAutomation/Cod/ParstStructured.java" />
+        <option value="$PROJECT_DIR$/SoftwareAutomation/Cod/ParunUnstructured.java" />
+        <option value="$PROJECT_DIR$/TowaInfraestructure/Ti/TestoptionEnum.java" />
+        <option value="$PROJECT_DIR$/TowaInfraestructure/Ti/strToEnum.java" />
+        <option value="$PROJECT_DIR$/TowaInfraestructure/Ti/StrToEnum.java" />
+        <option value="$PROJECT_DIR$/TowaInfraestructure/Ti/BboxBaseBoxingAbstract.java" />
+        <option value="$PROJECT_DIR$/SoftwareAutomation/Cod/CodtypeEnum.java" />
+        <option value="$PROJECT_DIR$/TowaInfraestructure/Ti/StrtoEnum.java" />
+        <option value="$PROJECT_DIR$/SoftwareAutomation/Cod/T3codToSortTuple.java" />
+        <option value="$PROJECT_DIR$/SoftwareAutomation/Tech/T4techInfoTuple.java" />
+        <option value="$PROJECT_DIR$/SoftwareAutomation/Tech/T3instInfoTuple.java" />
+        <option value="$PROJECT_DIR$/SoftwareAutomation/Tech/T3dfextDefinitionT3fextTuple.java" />
+        <option value="$PROJECT_DIR$/TowaInfraestructure/Ti/BtupleBaseTupleAbstract.java" />
+        <option value="$PROJECT_DIR$/SoftwareAutomation/Tech/T2dtechDefinitionT4techTuple.java" />
+        <option value="$PROJECT_DIR$/SoftwareAutomation/Tech/T3dinstDefinitionT3instTuple.java" />
+        <option value="$PROJECT_DIR$/SoftwareAutomation/Tech/BenumBaseEnumAbstract.java" />
+        <option value="$PROJECT_DIR$/SoftwareAutomation/Tech/T3fextInfoTuple.java" />
+        <option value="$PROJECT_DIR$/TowaInfraestructure/UccUnicodeCategoryEnum.java" />
+        <option value="$PROJECT_DIR$/TowaInfraestructure/Ti/BenumBaseEnumAbstract.java" />
+        <option value="$PROJECT_DIR$/SoftwareAutomation/Tech/TechinstEnum.java" />
+        <option value="$PROJECT_DIR$/SoftwareAutomation/Tech/TechinstInstanceEnum.java" />
+        <option value="$PROJECT_DIR$/SoftwareAutomation/Tech/TechtechEnum.java" />
+        <option value="$PROJECT_DIR$/TowaInfraestructure/Ti/UccUnicodeCategoryEnum.java" />
+        <option value="$PROJECT_DIR$/TowaInfraestructure/Ti/T2uccCategoryAndCharsTuple.java" />
+        <option value="$PROJECT_DIR$/TowaInfraestructure/Ti/T3fakecharFakeCharacterTuple.java" />
+        <option value="$PROJECT_DIR$/TowaInfraestructure/Ti/T3fakecharTuple.java" />
+        <option value="$PROJECT_DIR$/TowaInfraestructure/Ti/T2charDescriptionTuple.java" />
+        <option value="$PROJECT_DIR$/TowaStandardSupport/Tss/Std.java" />
+        <option value="$PROJECT_DIR$/TowaInfraestructure/Ti/SyspathPath.java" />
+        <option value="$PROJECT_DIR$/SoftwareAutomation/Tech/Tech.java" />
+        <option value="$PROJECT_DIR$/SoftwareAutomation/Cod/CodCodeAbstract.java" />
+        <option value="$PROJECT_DIR$/TowaInfraestructure/Ti/Sys.java" />
+        <option value="$PROJECT_DIR$/SoftwareAutomationCobol/Cod/CodcbCobol.java" />
+        <option value="$PROJECT_DIR$/SoftwareAutomationObjectOriented/Cod/CodooObjectOriented.java" />
+        <option value="$PROJECT_DIR$/TowaInfraestructure/Ti/BclassBaseClassAbstract.java" />
+        <option value="$PROJECT_DIR$/SoftwareAutomationZTest/Tsaz/frmPrueba.java" />
+        <option value="$PROJECT_DIR$/TowaInfraestructure/Ti/Tes2.java" />
+        <option value="$PROJECT_DIR$/SoftwareAutomationZTest/Tsaz/TestCod.java" />
+        <option value="$PROJECT_DIR$/TowaInfraestructure/Ti/Tools.java" />
+        <option value="$PROJECT_DIR$/TowaInfraestructure/Ti/Tes3.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="776" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoftwareCompare_Java_20170605" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoftwareCompare_Java_20170605" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoftwareCompare_Java_20170605" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoftwareCompare_Java_20170605" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TowaInfraestructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoftwareCompare_Java_20170605" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoftwareCompare_Java_20170605" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoftwareAutomationZTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tsaz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="SearchEverywhereHistoryKey" value="frm&#9;PSI&#9;JAVA://Tsaz.frmPrueba&#10;strto&#9;FILE&#9;file://C:/Users/Alejandro/Documents/Towa/Subversion/SoftwareCompare_Java_20170605/TowaInfraestructure/Ti/StrtoEnum.java&#10;btu&#9;FILE&#9;file://C:/Users/Alejandro/Documents/Towa/Subversion/SoftwareCompare_Java_20170605/TowaInfraestructure/Ti/BtupleBaseTupleAbstract.java&#10;workspa&#9;FILE&#9;file://C:/Users/Alejandro/Documents/Towa/Subversion/SoftwareCompare_Java_20170605/.idea/workspace.xml&#10;enum&#9;FILE&#9;file://C:/Users/Alejandro/Documents/Towa/Subversion/SoftwareCompare_Java_20170605/SoftwareAutomation/Cod/ComtypeEnum.java&#10;cod&#9;FILE&#9;file://C:/Users/Alejandro/Documents/Towa/Subversion/SoftwareCompare_Java_20170605/SoftwareAutomation/Cod/CodCodeAbstract.java&#10;te&#9;FILE&#9;file://C:/Users/Alejandro/Documents/Towa/Subversion/SoftwareCompare_Java_20170605/TowaInfraestructure/Ti/Tes2.java" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Program">
+    <configuration default="false" name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Tsaz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Tsaz.Program" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SoftwareCompare_Java_20170605" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Tsaz.Program" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SoftwareCompare_Java_20170531" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SoftwareCompare_Java_20170531" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Program" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Program" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\elielr01\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b377ea36-bc95-4088-ad89-db85629359d0" name="Default" comment="" />
+      <created>1496267892585</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1496267892585</updated>
+      <workItem from="1496688670202" duration="44000" />
+      <workItem from="1496688774266" duration="3564000" />
+      <workItem from="1497256090289" duration="44637000" />
+      <workItem from="1497611482644" duration="1688000" />
+      <workItem from="1497614155207" duration="28681000" />
+      <workItem from="1497895607222" duration="33562000" />
+      <workItem from="1498150395189" duration="8811000" />
+      <workItem from="1498645332601" duration="2935000" />
+      <workItem from="1498732306722" duration="5995000" />
+      <workItem from="1498738331494" duration="717000" />
+      <workItem from="1498739074879" duration="2088000" />
+      <workItem from="1498747915140" duration="180000" />
+      <workItem from="1498748230127" duration="16497000" />
+      <workItem from="1499333477325" duration="24344000" />
+      <workItem from="1500281092192" duration="29569000" />
+      <workItem from="1500551230637" duration="6051000" />
+    </task>
+    <task id="LOCAL-00001" summary="Se cambió el nombre del proyecto.">
+      <created>1496688857871</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1496688857871</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Se eliminó el comentario de prueba.">
+      <created>1496691952584</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1496691952584</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="209363000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46246246" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40469974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32767624" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32767624" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5417349" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32767624" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04091653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32767624" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
+    <MESSAGE value="Se cambió el nombre del proyecto." />
+    <MESSAGE value="Se eliminó el comentario de prueba." />
+    <MESSAGE value="Cambios con respecto a formato. Todos los cambios de este commit fueron para hacer que el código estuviera conforme al estándar. Los cambios que se hicieron incluyen: comentarios con &quot;//&quot; antes del comentario (como en C#), correcta alineación de if's, while's, etc y de métodos y sus parámetros." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios con respecto a formato. Todos los cambios de este commit fueron para hacer que el código estuviera conforme al estándar. Los cambios que se hicieron incluyen: comentarios con &quot;//&quot; antes del comentario (como en C#), correcta alineación de if's, while's, etc y de métodos y sus parámetros." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TowaInfraestructure/Ti/Tes3.java</url>
+          <line>1402</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SoftwareAutomationZTest/Tsaz/TestCod.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SoftwareAutomationZTest/Tsaz/TestCod.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="105" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TowaInfraestructure/Ti/TestchartypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareAutomationObjectOriented/Cod/ComooObjectOriented.java" />
+    <entry file="file://$PROJECT_DIR$/SoftwareAutomation/Cod/ComCommentsAbstract.java" />
+    <entry file="file://$PROJECT_DIR$/SoftwareAutomationCobol/Cod/ComcbCobol.java" />
+    <entry file="file://$PROJECT_DIR$/SoftwareAutomation/Cod/ParParagraphAbstract.java" />
+    <entry file="file://$PROJECT_DIR$/SoftwareAutomation/Cod/ParstStructured.java" />
+    <entry file="file://$PROJECT_DIR$/SoftwareAutomation/Cod/ParunUnstructured.java" />
+    <entry file="file://$PROJECT_DIR$/TowaInfraestructure/Ti/Obool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowaInfraestructure/Ti/Ochar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="60" lean-forward="true" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowaInfraestructure/Ti/Ostring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowaInfraestructure/Ti/Oarrchar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowaInfraestructure/Ti/Onum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowaInfraestructure/Ti/BboxBaseBoxingAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareAutomation/Cod/ParemEmpty.java" />
+    <entry file="file://$PROJECT_DIR$/TowaInfraestructure/Ti/StrtoEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareAutomation/Cod/ComtypeEnum.java" />
+    <entry file="file://$PROJECT_DIR$/SoftwareAutomation/Cod/CodtypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareAutomation/Cod/T3codToSortTuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareAutomation/Tech/T4techInfoTuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareAutomation/Tech/T3instInfoTuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-529">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareAutomation/Tech/T3dinstDefinitionT3instTuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareAutomation/Tech/T3fextInfoTuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareAutomation/Tech/T3dfextDefinitionT3fextTuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-393">
+          <caret line="14" column="60" lean-forward="true" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowaInfraestructure/UccUnicodeCategoryEnum.java" />
+    <entry file="file://$PROJECT_DIR$/SoftwareAutomation/Tech/TechinstInstanceEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareAutomation/Tech/TechtechEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="56" lean-forward="true" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowaInfraestructure/Ti/UccUnicodeCategoryEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowaInfraestructure/Ti/T2uccCategoryAndCharsTuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowaInfraestructure/Ti/BenumBaseEnumAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="68" column="25" lean-forward="false" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareAutomation/Tech/T2dtechDefinitionT4techTuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="15" column="35" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowaInfraestructure/Ti/T3fakecharTuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="18" lean-forward="false" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowaInfraestructure/Ti/T2charDescriptionTuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/lang/String.java" />
+    <entry file="file://$PROJECT_DIR$/TowaInfraestructure/Ti/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="2117" column="25" lean-forward="false" selection-start-line="2117" selection-start-column="25" selection-end-line="2117" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareAutomation/Tech/TechinstEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowaStandardSupport/Tss/Std.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/util/Arrays.java" />
+    <entry file="file://$PROJECT_DIR$/TowaInfraestructure/Ti/BtupleBaseTupleAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="60" column="45" lean-forward="false" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareAutomation/Tech/Tech.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="70" column="15" lean-forward="false" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/io/FileInputStream.java" />
+    <entry file="file://$PROJECT_DIR$/SoftwareAutomation/Cod/CodCodeAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11067">
+          <caret line="657" column="0" lean-forward="false" selection-start-line="657" selection-start-column="0" selection-end-line="657" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareAutomationCobol/Cod/CodcbCobol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2380">
+          <caret line="144" column="26" lean-forward="false" selection-start-line="144" selection-start-column="26" selection-end-line="144" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareAutomationObjectOriented/Cod/CodooObjectOriented.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="42" column="58" lean-forward="false" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareAutomationZTest/Tsaz/frmPrueba.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="46" column="45" lean-forward="false" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowaInfraestructure/Ti/BclassBaseClassAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowaInfraestructure/Ti/SyspathPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4029">
+          <caret line="240" column="0" lean-forward="false" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowaInfraestructure/Ti/Sys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22457">
+          <caret line="1330" column="0" lean-forward="false" selection-start-line="1330" selection-start-column="0" selection-end-line="1330" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftwareAutomationZTest/Tsaz/TestCod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="37" column="35" lean-forward="false" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowaInfraestructure/Ti/Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120581">
+          <caret line="7096" column="0" lean-forward="false" selection-start-line="7096" selection-start-column="0" selection-end-line="7096" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowaInfraestructure/Ti/Tes2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36448">
+          <caret line="2151" column="9" lean-forward="false" selection-start-line="2151" selection-start-column="9" selection-end-line="2151" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TowaInfraestructure/Ti/Tes3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5408" column="12" lean-forward="false" selection-start-line="5408" selection-start-column="12" selection-end-line="5408" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>com.google.code.gson:gson:2.8.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SoftwareCompare_Java_20170605</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
